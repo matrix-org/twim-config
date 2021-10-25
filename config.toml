@@ -291,7 +291,10 @@ title = 'Cinny'
 description = 'Cinny is a Matrix client focused on simplicity, elegance and security'
 website = 'https://cinny.in'
 default_section = 'clients'
-usual_reporters = ['@ajbura:matrix.org']
+usual_reporters = [
+    '@ajbura:matrix.org',
+    '@kfiven:matrix.org'
+]
 
 [[projects]]
 emoji = 'Quaternion?'
