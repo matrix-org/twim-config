@@ -1,0 +1,87 @@
+name: Add Project
+description: Add a project to the TWIM bot's configuration
+title: "[Project] "
+body:
+  - type: input
+    id: emoji
+    attributes:
+      label: Bot Reaction
+      description: Your project name followed by a question mark
+      placeholder: Matrix Rust SDK?
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Project Identifier
+      description: Your project name in lowercase, dash-separated
+      placeholder: matrix-rust-sdk
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Project Name
+      description: Your project name, as it will appear in the TWIM report
+      placeholder: Matrix Rust SDK
+    validations:
+      required: true
+  - type input
+    id: description
+    attributes:
+      label: Project Description
+      description: The description of your project, as it will appear in the TWIM report 
+      placeholder: Matrix Client-Server SDK for Rust 
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Website
+      description: The website of your project. It can either be the main website or a repository
+      placeholder: https://github.com/matrix-org/matrix-rust-sdk
+    validations:
+      required: true
+  - type: dropdown
+    id: default_section
+    attributes:
+      label: Default section in which the project will appear in the TWIM report
+      multiple: false
+      options:
+        - todo
+        - status
+        - spec
+        - gsoc
+        - p2p
+        - servers
+        - homeserver-deployment
+        - bridges
+        - clients
+        - voip
+        - encryption
+        - sdks
+        - ops
+        - services
+        - blockchain
+        - iot
+        - bots
+        - eventvideos
+        - talks
+        - projects
+        - build
+        - guides
+        - hackathons
+        - jobs
+        - news
+        - rooms
+        - welcome
+        - room-of-the-week
+        - thoughts
+  - type: input
+    id: usual_reporters
+    attributes:
+      label: Usual Reporters
+      description: Comma separated list of Matrix ID of people who usually report news about this project 
+      placeholder: @person:matrix.org,@folk:server.org
+    validations:
+      required: true
