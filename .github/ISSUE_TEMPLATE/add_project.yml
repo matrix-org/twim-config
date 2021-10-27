@@ -82,6 +82,6 @@ body:
     attributes:
       label: Usual Reporters
       description: Comma separated list of Matrix ID of people who usually report news about this project 
-      placeholder: @person:matrix.org,@folk:server.org
+      placeholder: "@person:matrix.org,@folk:server.org"
     validations:
       required: true
