@@ -201,7 +201,7 @@ order = 3000
 usual_reporters = []
 
 [[sections]]
-emoji = '🛋️'
+emoji = '📆'
 name = 'room-of-the-week'
 title = 'Room of the Week 📆'
 order = 3600
