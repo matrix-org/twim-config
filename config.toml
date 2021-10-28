@@ -465,5 +465,5 @@ name = 'collabs'
 title = 'Collabs'
 description = 'A library to make decentralized collaborative apps'
 website = 'https://www.npmjs.com/package/@collabs/collabs'
-default_section = 'sdk'
+default_section = 'sdks'
 usual_reporters = ['@mweidner:matrix.org']
