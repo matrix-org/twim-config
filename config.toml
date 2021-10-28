@@ -458,3 +458,12 @@ description = 'Get your latest AppStore & Playstore review directly in your fav 
 website = 'https://github.com/BillCarsonFr/matrix-review-bot'
 default_section = 'bots'
 usual_reporters = ['@valere35:matrix.org']
+
+[[projects]]
+emoji = 'Collabs?'
+name = 'collabs'
+title = 'Collabs'
+description = 'A library to make decentralized collaborative apps'
+website = 'https://www.npmjs.com/package/@collabs/collabs'
+default_section = 'sdk'
+usual_reporters = ['@mweidner:matrix.org']
