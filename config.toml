@@ -30,7 +30,7 @@ usual_reporters = []
 emoji = '🙆'
 name = 'social'
 title = 'Dept of Social Good 🙆'
-order = '250'
+order = 250
 usual_reporters = ['@denise.a:vector.modular.im']
 
 [[sections]]
