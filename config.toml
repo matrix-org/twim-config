@@ -25,7 +25,6 @@ title = 'Dept of *Status of Matrix* 🌡️'
 order = 200
 usual_reporters = []
 
-
 [[sections]]
 emoji = '🙆'
 name = 'social'

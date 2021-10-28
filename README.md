@@ -37,3 +37,37 @@ To know which project the news report refers to (so it can add the proper title,
 When someone reports a news, the bot looks up in its configuration. If the person reporting the news is identified as a usual reporter of one or several projects, the bot reacts with the projects names so the editor only has to click on the correct one to confirm which project this news is related to.
 
 If you want the TWIM bot to be aware of your project, feel free to [open an issue](https://github.com/matrix-org/twim-config/issues/new?assignees=&labels=&template=add_project.yml&title=%5BProject%5D+) or a pull request to get your project added to [Hebbot's configuration](https://github.com/matrix-org/twim-config/blob/master/config.toml)!
+
+### Do I need to add an emoji to add it to a section?
+
+Not anymore! The editor (and most of the time the bot itself) will sort your news report in the correct section. Those sections are defined in the [config.toml](https://github.com/matrix-org/twim-config/blob/master/config.toml) file and are the following:
+
+* Dept of *Status of Matrix* 🌡️
+* Dept of Social Good 🙆
+* Dept of Spec 📜
+* Dept of GSoC 🎓️
+* Dept of P2P 👥
+* Dept of Servers 🏢
+* Homeserver Deployment 📥️
+* Dept of Bridges 🌉
+* Dept of Clients 📱
+* Dept of VoIP 🤙
+* Dept of Encryption 🔐
+* Dept of SDKs and Frameworks 🧰
+* Dept of Ops 🛠
+* Dept of Services 🚀
+* Dept of Blockchain 🤷
+* Dept of Internet of Things 💡
+* Dept of Bots 🤖
+* Dept of Event Videos 📹
+* Dept of Events and Talks 🗣️
+* Dept of Interesting Projects 🛰️
+* Dept of *Built on Matrix* 🏗️
+* Dept of Guides 🧭
+* Dept of Hackathons 🍕
+* Dept of Jobs 💰️
+* Matrix in the News 📰
+* New Public Rooms 🏟️
+* Dept of Welcomes 👐
+* Room of the Week 📆
+* Final Thoughts 💭

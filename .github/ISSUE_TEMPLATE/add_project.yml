@@ -50,6 +50,7 @@ body:
       options:
         - todo
         - status
+        - social
         - spec
         - gsoc
         - p2p
