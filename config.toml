@@ -331,6 +331,22 @@ default_section = 'servers'
 usual_reporters = ['@timokoesters:fachschaften.org']
 
 [[projects]]
+emoji = 'Element?'
+name = 'element'
+title = 'Element'
+description = 'Everything related to Element but not strictly bound to a client'
+website = 'https://element.io'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@valere35:matrix.org',
+    '@nadonomy:matrix.org',
+    '@jsalter:matrix.org',
+    '@daniellekirkwood:matrix.org'
+]
+
+[[projects]]
 emoji = 'Emt Web?'
 name = 'element-web'
 title = 'Element Web/Desktop'
@@ -365,22 +381,6 @@ usual_reporters = [
     '@thib:ergaster.org',
     '@kittykat:matrix.org',
     '@benoit.marty:matrix.org'
-]
-
-[[projects]]
-emoji = 'Emt X-Func?'
-name = 'element-cross-functional'
-title = 'Element Cross Functional'
-description = 'Everything related to Element but not strictly bound to a client'
-website = 'https://element.io'
-default_section = 'clients'
-usual_reporters = [
-    '@thib:ergaster.org',
-    '@kittykat:matrix.org',
-    '@valere35:matrix.org',
-    '@nadonomy:matrix.org',
-    '@jsalter:matrix.org',
-    '@daniellekirkwood:matrix.org'
 ]
 
 [[projects]]
