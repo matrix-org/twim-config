@@ -363,18 +363,24 @@ website = 'https://github.com/vector-im/element-android'
 default_section = 'clients'
 usual_reporters = [
     '@thib:ergaster.org',
-    '@kittykat:matrix.org'
+    '@kittykat:matrix.org',
+    '@benoit.marty:matrix.org'
 ]
 
 [[projects]]
-emoji = 'Emt Delight?'
-name = 'element-delight'
-title = 'Element Delight'
-description = 'To Delight people with Element!'
+emoji = 'Emt X-Func?'
+name = 'element-cross-functional'
+title = 'Element Cross Functional'
+description = 'Everything related to Element but not strictly bound to a client'
 website = 'https://element.io'
 default_section = 'clients'
 usual_reporters = [
-    '@thib:ergaster.org'
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@valere35:matrix.org',
+    '@nadonomy:matrix.org',
+    '@jsalter:matrix.org',
+    '@daniellekirkwood:matrix.org'
 ]
 
 [[projects]]
