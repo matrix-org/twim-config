@@ -331,15 +331,50 @@ default_section = 'servers'
 usual_reporters = ['@timokoesters:fachschaften.org']
 
 [[projects]]
-emoji = 'Element?'
-name = 'element'
-title = 'Element'
-description = 'Secure and independent communication, connected via Matrix.'
-website = 'https://element.io'
+emoji = 'Emt Web?'
+name = 'element-web'
+title = 'Element Web/Desktop'
+description = 'Secure and independent communication, connected via Matrix. Come talk with us in [#element-web:matrix.org](https://matrix.to/#/#element-web:matrix.org)!'
+website = 'https://github.com/vector-im/element-web'
 default_section = 'clients'
 usual_reporters = [
 	'@thib:ergaster.org',
-	'@afranke:matrix.org'
+    '@kittykat:matrix.org'
+]
+
+[[projects]]
+emoji = 'Emt iOS?'
+name = 'element-ios'
+title = 'Element iOS'
+description = 'Secure and independent communication for iOS, connected via Matrix. Come talk with us in [#element-ios:matrix.org](https://matrix.to/#/#element-ios:matrix.org)!'
+website = 'https://github.com/vector-im/element-ios'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org'
+]
+
+[[projects]]
+emoji = 'Emt Android?'
+name = 'element-android'
+title = 'Element Android'
+description = 'Secure and independent communication for Android, connected via Matrix. Come talk with us in [#element-android:matrix.org](https://matrix.to/#/#element-android:matrix.org)!'
+website = 'https://github.com/vector-im/element-android'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org'
+]
+
+[[projects]]
+emoji = 'Emt Delight?'
+name = 'element-delight'
+title = 'Element Delight'
+description = 'To Delight people with Element!'
+website = 'https://element.io'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org'
 ]
 
 [[projects]]
