@@ -518,11 +518,11 @@ website = 'https://github.com/MTRNord/mrsbfh'
 default_section = 'sdks'
 usual_reporters = ['@mtrnord:nordgedanken.dev']
 
-[[project]]
+[[projects]]
 emoji = 'mautrix-whatsapp?'
 name = 'mautrix-whatsapp'
 title = 'mautrix-whatsapp'
 description = 'A Matrix-WhatsApp puppeting bridge'
 website = 'https://github.com/mautrix/whatsapp'
 default_section = 'bridges'
-usual_reporters = '@tulir:maunium.net'
+usual_reporters = ['@tulir:maunium.net']
