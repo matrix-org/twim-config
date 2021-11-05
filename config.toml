@@ -508,3 +508,12 @@ description = 'A library to make decentralized collaborative apps'
 website = 'https://www.npmjs.com/package/@collabs/collabs'
 default_section = 'sdks'
 usual_reporters = ['@mweidner:matrix.org']
+
+[[projects]]
+emoji = 'MRSBFH?'
+name = 'mrsbfh'
+title = 'Matrix-Rust-SDK-Bot-Framework-Helper'
+description = 'A toolkit for writing commandbots more efficient in rust for matrix.'
+website = 'https://github.com/MTRNord/mrsbfh'
+default_section = 'sdks'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
