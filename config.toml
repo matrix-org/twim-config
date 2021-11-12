@@ -526,3 +526,12 @@ description = 'A Matrix-WhatsApp puppeting bridge'
 website = 'https://github.com/mautrix/whatsapp'
 default_section = 'bridges'
 usual_reporters = ['@tulir:maunium.net']
+
+[[projects]]
+emoji = 'simplematrixbotlib?'
+name = 'simplematrixbotlib'
+title = 'simplematrixbotlib'
+description = 'simplematrixbotlib is an easy to use bot library for the Matrix ecosystem written in Python and based on matrix-nio.'
+website = 'https://github.com/KrazyKirby99999/simple-matrix-bot-lib'
+default_section = 'sdks'
+usual_reporters = ['@krazykirby99999:matrix.org']
