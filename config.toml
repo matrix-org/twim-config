@@ -82,6 +82,13 @@ order = 1000
 usual_reporters = []
 
 [[sections]]
+emoji = '🎛️'
+name = 'non-chat-clients'
+title = 'Dept of Non Clients 🎛️'
+order = 1020
+usual_reporters = []
+
+[[sections]]
 emoji = '🤙'
 name = 'voip'
 title = 'Dept of VoIP 🤙'
@@ -535,3 +542,12 @@ description = 'simplematrixbotlib is an easy to use bot library for the Matrix e
 website = 'https://github.com/KrazyKirby99999/simple-matrix-bot-lib'
 default_section = 'sdks'
 usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'time-to-matrix?'
+name = 'time-to-matrix'
+title = 'time-to-matrix'
+description = 'The time command, but it sends the output to a Matrix room'
+website = 'https://gitlab.com/etke.cc/ttm'
+default_section = 'non-chat-clients'
+usual_reporters = ['@aine:etke.cc']
