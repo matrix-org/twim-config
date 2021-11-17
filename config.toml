@@ -551,3 +551,12 @@ description = 'The time command, but it sends the output to a Matrix room'
 website = 'https://gitlab.com/etke.cc/ttm'
 default_section = 'non-chat-clients'
 usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'Mjolnir?'
+name = 'mjolnir'
+title = 'Mjölnir'
+description = 'The moderation bot for Matrix'
+website = 'https://github.com/matrix-org/mjolnir'
+default_section = 'bots'
+usual_reporters = ['@dotyoric:matrix.org']
