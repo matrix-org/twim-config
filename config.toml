@@ -569,3 +569,13 @@ description = 'Command line admin tool for Synapse (Matrix reference homeserver)
 website = 'https://github.com/JOJ0/synadm'
 default = 'ops'
 usual_reporters = ['@jojo:peek-a-boo.at']
+
+[[projects]]
+emoji = 'jOlm?'
+name = 'jolm'
+title = 'jOlm'
+description = 'Olm bindings for Java'
+website = 'https://github.com/brevilo/jolm'
+default_section = 'sdks'
+usual_reporters = ['@brevilo:matrix.org']
+
