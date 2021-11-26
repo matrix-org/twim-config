@@ -560,3 +560,12 @@ description = 'The moderation bot for Matrix'
 website = 'https://github.com/matrix-org/mjolnir'
 default_section = 'bots'
 usual_reporters = ['@dotyoric:matrix.org']
+
+[[projects]]
+emoji = 'synadm?'
+name = 'synadm'
+title = 'synadm'
+description = 'Command line admin tool for Synapse (Matrix reference homeserver)'
+website = 'https://github.com/JOJ0/synadm'
+default = 'ops'
+usual_reporters = ['@jojo:peek-a-boo.at']
