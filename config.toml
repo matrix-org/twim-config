@@ -580,3 +580,11 @@ website = 'https://github.com/brevilo/jolm'
 default_section = 'sdks'
 usual_reporters = ['@brevilo:matrix.org']
 
+[[projects]]
+emoji = 'MinesTRIX?'
+name = 'minestrix'
+title = 'MinesTRIX'
+description = 'A privacy focused social media based on MATRIX'
+website = 'https://minestrix.henri2h.fr'
+default_section = 'projects'
+usual_reporters = ['@henri2h:carnot.cc']
