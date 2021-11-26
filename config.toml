@@ -3,7 +3,7 @@ reporting_room_id = '!QQpfJfZvqxbCfeDgCj:matrix.org'
 admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
 notice_emoji = '⭕️'
 image_emoji = '📷️'
-image_markdown = '> ![]({{file}})'
+image_markdown = '> ![](/blog/img/{{file}})'
 video_emoji = '📹️'
 video_markdown = '> {{< video src="{{file}}" >}}'
 update_config_command = "sh /data/update_config.sh"
