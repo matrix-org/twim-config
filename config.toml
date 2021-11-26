@@ -588,3 +588,12 @@ description = 'A privacy focused social media based on MATRIX'
 website = 'https://minestrix.henri2h.fr'
 default_section = 'projects'
 usual_reporters = ['@henri2h:carnot.cc']
+
+[[projects]]
+emoji = 'hookshot?'
+name = 'matrix-hookshot'
+title = 'matrix-hookshot'
+description = 'A multi purpose multi platform bridge, formerly known as matrix-github'
+website = 'https://github.com/Half-Shot/matrix-hookshot'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
