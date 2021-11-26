@@ -606,3 +606,13 @@ description = 'A plugin-based Matrix bot system.'
 website = 'https://github.com/maubot/maubot'
 default_section = 'bots'
 usual_reporters = ['@tulir:maunium.net']
+
+
+[[projects]]
+emoji = 'Webhook Receiver?'
+name = 'webhook-receiver'
+title = 'Matrix Webhook Receiver'
+description = 'An add-on for the matrix-appservice-webhooks bridge. Webhooks are essentially web interfaces for applications to "push" data to. The bridge can receive messages in a certain format, which is nice if the notifying app can be configured. Often it cannot.'
+website = 'https://github.com/HarHarLinks/matrix-webhook-receiver'
+default_section = 'bridges'
+usual_reporters = '@kim:sosnowkadub.de'
