@@ -268,7 +268,8 @@ default_section = 'servers'
 usual_reporters = [
     '@callahad:matrix.org',
     '@erikj:jki.re',
-    '@babolivier:vector.modular.im'
+    '@babolivier:vector.modular.im',
+    '@dmrobertson:matrix.org'
 ]
 
 [[projects]]
