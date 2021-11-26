@@ -597,3 +597,12 @@ description = 'A multi purpose multi platform bridge, formerly known as matrix-g
 website = 'https://github.com/Half-Shot/matrix-hookshot'
 default_section = 'bridges'
 usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'maubot?'
+name = 'maubot'
+title = 'maubot'
+description = 'A plugin-based Matrix bot system.'
+website = 'https://github.com/maubot/maubot'
+default_section = 'bots'
+usual_reporters = ['@tulir:maunium.net']
