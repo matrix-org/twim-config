@@ -624,3 +624,12 @@ description = 'Multiplatform Kotlin SDK for Matrix'
 website = 'https://gitlab.com/benkuly/trixnity'
 default_section = 'sdks'
 usual_reporters = ['@benedict:imbitbu.de']
+
+[[projects]]
+emoji = 'Sydent?'
+name = 'sydent'
+title = 'Sydent'
+description = 'Sydent is the reference Matrix Identity server. It provides a lookup service, so that you can find a Matrix user via their email address or phone number (if they've chosen to share it).'
+website = 'https://github.com/matrix-org/sydent'
+default_section = 'servers'
+usual_reporters = ['@dmrobertson:matrix.org']
