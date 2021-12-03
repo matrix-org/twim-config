@@ -615,3 +615,12 @@ description = 'An add-on for the matrix-appservice-webhooks bridge. Webhooks are
 website = 'https://github.com/HarHarLinks/matrix-webhook-receiver'
 default_section = 'bridges'
 usual_reporters = ['@kim:sosnowkadub.de']
+
+[[projects]]
+emoji = 'Trixnity?'
+name = 'trixnity'
+title = 'Trixnity'
+description = 'Multiplatform Kotlin SDK for Matrix'
+website = 'https://gitlab.com/benkuly/trixnity'
+default_section = 'sdks'
+usual_reporters = ['@benedict:imbitbu.de']
