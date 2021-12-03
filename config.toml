@@ -4,7 +4,7 @@ admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
 notice_emoji = '⭕️'
 image_emoji = '📷️'
 image_markdown = '> ![](/blog/img/{{file}})'
-video_emoji = '📹️'
+video_emoji = '🎥'
 video_markdown = '> {{< video src="{{file}}" >}}'
 update_config_command = "sh /data/update_config.sh"
 editors = [
@@ -629,7 +629,7 @@ usual_reporters = ['@benedict:imbitbu.de']
 emoji = 'Sydent?'
 name = 'sydent'
 title = 'Sydent'
-description = 'Sydent is the reference Matrix Identity server. It provides a lookup service, so that you can find a Matrix user via their email address or phone number (if they've chosen to share it).'
+description = 'Sydent is the reference Matrix Identity server. It provides a lookup service, so that you can find a Matrix user via their email address or phone number (if they have chosen to share it).'
 website = 'https://github.com/matrix-org/sydent'
 default_section = 'servers'
 usual_reporters = ['@dmrobertson:matrix.org']
