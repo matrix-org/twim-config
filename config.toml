@@ -633,3 +633,13 @@ description = 'Sydent is the reference Matrix Identity server. It provides a loo
 website = 'https://github.com/matrix-org/sydent'
 default_section = 'servers'
 usual_reporters = ['@dmrobertson:matrix.org']
+
+[[projects]]
+emoji = 'Commune?'
+name = 'commune'
+title = 'Commune'
+description = 'Commune is a communications suite built on top of matrix. Commune aims to bring together chat, discussions, email and other interactive apps into a single matrix client.'
+website = 'https://github.com/commune-org/commune'
+default_section = 'clients'
+usual_reporters = ['@erlend_sh:matrix.org']
+
