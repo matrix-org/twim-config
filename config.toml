@@ -641,5 +641,7 @@ title = 'Commune'
 description = 'Commune is a communications suite built on top of matrix. Commune aims to bring together chat, discussions, email and other interactive apps into a single matrix client.'
 website = 'https://github.com/commune-org/commune'
 default_section = 'clients'
-usual_reporters = ['@erlend_sh:matrix.org']
+usual_reporters = [
+  '@erlend_sh:matrix.org',
+  '@ahq:matrix.org']
 
