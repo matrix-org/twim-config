@@ -15,217 +15,196 @@ editors = [
 emoji = '✅'
 name = 'todo'
 title = 'TODO UNKNOWN SECTION'
-order = 100
+order = 1000
 usual_reporters = []
 
 [[sections]]
 emoji = '🌡️'
 name = 'status'
 title = 'Dept of *Status of Matrix* 🌡️'
-order = 200
+order = 1010
 usual_reporters = []
 
 [[sections]]
 emoji = '🙆'
 name = 'social'
 title = 'Dept of Social Good 🙆'
-order = 250
+order = 1020
 usual_reporters = ['@denise.a:vector.modular.im']
 
 [[sections]]
 emoji = '📜'
 name = 'spec'
 title = 'Dept of Spec 📜'
-order = 300
+order = 1030
 usual_reporters = ['@andrewm:amorgan.xyz']
 
 [[sections]]
 emoji = '🎓️'
 name = 'gsoc'
 title = 'Dept of GSoC 🎓️'
-order = 400
+order = 1040
 usual_reporters = []
 
 [[sections]]
 emoji = '👥'
 name = 'p2p'
 title = 'Dept of P2P 👥'
-order = 600
+order = 1050
 usual_reporters = []
 
 [[sections]]
 emoji = '🏢'
 name = 'servers'
 title = 'Dept of Servers 🏢'
-order = 700
+order = 1060
 usual_reporters = []
 
 [[sections]]
 emoji = '📥️'
 name = 'homeserver-deployment'
 title = 'Homeserver Deployment 📥️'
-order = 800
+order = 1080
 usual_reporters = []
 
 [[sections]]
 emoji = '🌉'
 name = 'bridges'
 title = 'Dept of Bridges 🌉'
-order = 900
+order = 1090
 usual_reporters = []
 
 [[sections]]
 emoji = '📱'
 name = 'clients'
 title = 'Dept of Clients 📱'
-order = 1000
+order = 1100
 usual_reporters = []
 
 [[sections]]
 emoji = '🎛️'
 name = 'non-chat-clients'
 title = 'Dept of Non Clients 🎛️'
-order = 1020
+order = 1110
 usual_reporters = []
 
 [[sections]]
 emoji = '🤙'
 name = 'voip'
 title = 'Dept of VoIP 🤙'
-order = 1050
+order = 1120
 usual_reporters = []
 
 [[sections]]
 emoji = '🔐'
 name = 'encryption'
 title = 'Dept of Encryption 🔐'
-order = 1100
+order = 1130
 usual_reporters = []
 
 [[sections]]
 emoji = '🧰'
 name = 'sdks'
 title = 'Dept of SDKs and Frameworks 🧰'
-order = 1200
+order = 1140
 usual_reporters = []
 
 [[sections]]
 emoji = '🛠️'
 name = 'ops'
 title = 'Dept of Ops 🛠'
-order = 1300
+order = 1150
 usual_reporters = []
 
 [[sections]]
 emoji = '🚀'
 name = 'services'
 title = 'Dept of Services 🚀'
-order = 1400
-usual_reporters = []
-
-[[sections]]
-emoji = '🤷'
-name = 'blockchain'
-title = 'Dept of Blockchain 🤷'
-order = 1500
+order = 1160
 usual_reporters = []
 
 [[sections]]
 emoji = '💡'
 name = 'iot'
 title = 'Dept of Internet of Things 💡'
-order = 1600
+order = 1170
 usual_reporters = []
 
 [[sections]]
 emoji = '🤖'
 name = 'bots'
 title = 'Dept of Bots 🤖'
-order = 1700
+order = 1180
 usual_reporters = []
 
 [[sections]]
 emoji = '📹'
 name = 'eventvideos'
-title = 'Dept of Event Videos 📹'
-order = 1800
+title = 'Dept of Videos 📹'
+order = 1190
 usual_reporters = []
 
 [[sections]]
 emoji = '🗣️'
 name = 'talks'
 title = 'Dept of Events and Talks 🗣️'
-order = 1900
+order = 1200
 usual_reporters = []
 
 [[sections]]
 emoji = '🛰️'
 name = 'projects'
 title = 'Dept of Interesting Projects 🛰️'
-order = 2000
+order = 1210
 usual_reporters = []
 
 [[sections]]
 emoji = '🏗️'
 name = 'build'
 title = 'Dept of *Built on Matrix* 🏗️'
-order = 2050
+order = 1230
 usual_reporters = []
 
 [[sections]]
 emoji = '🧭'
 name = 'guides'
 title = 'Dept of Guides 🧭'
-order = 2100
+order = 1240
 usual_reporters = []
 
 [[sections]]
 emoji = '🍕'
 name = 'hackathons'
 title = 'Dept of Hackathons 🍕'
-order = 2200
+order = 1250
 usual_reporters = []
 
 [[sections]]
 emoji = '💰️'
 name = 'jobs'
 title = 'Dept of Jobs 💰️'
-order = 2300
+order = 1260
 usual_reporters = []
 
 [[sections]]
 emoji = '📰'
 name = 'news'
 title = 'Matrix in the News 📰'
-order = 2400
-usual_reporters = []
-
-[[sections]]
-emoji = '🏟️'
-name = 'rooms'
-title = 'New Public Rooms 🏟️'
-order = 2500
-usual_reporters = []
-
-[[sections]]
-emoji = '👐'
-name = 'welcome'
-title = 'Dept of Welcomes 👐'
-order = 3000
+order = 1270
 usual_reporters = []
 
 [[sections]]
 emoji = '📆'
 name = 'room-of-the-week'
 title = 'Room of the Week 📆'
-order = 3600
+order = 1280
 usual_reporters = ['@timokoesters:fachschaften.org']
 
 [[sections]]
 emoji = '💭'
 name = 'thoughts'
 title = 'Final Thoughts 💭'
-order = 4000
+order = 2000
 usual_reporters = []
 
 [[projects]]
