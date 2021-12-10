@@ -330,7 +330,7 @@ usual_reporters = [
     '@valere35:matrix.org',
     '@nadonomy:matrix.org',
     '@jsalter:matrix.org',
-    '@daniellekirkwood:matrix.org'
+    '@daniellekirkwood:one.ems.host'
 ]
 
 [[projects]]
@@ -341,8 +341,9 @@ description = 'Secure and independent communication, connected via Matrix. Come 
 website = 'https://github.com/vector-im/element-web'
 default_section = 'clients'
 usual_reporters = [
-	'@thib:ergaster.org',
-    '@kittykat:matrix.org'
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@daniellekirkwood:one.ems.host'
 ]
 
 [[projects]]
@@ -354,7 +355,8 @@ website = 'https://github.com/vector-im/element-ios'
 default_section = 'clients'
 usual_reporters = [
     '@thib:ergaster.org',
-    '@kittykat:matrix.org'
+    '@kittykat:matrix.org',
+    '@daniellekirkwood:one.ems.host'
 ]
 
 [[projects]]
@@ -367,7 +369,8 @@ default_section = 'clients'
 usual_reporters = [
     '@thib:ergaster.org',
     '@kittykat:matrix.org',
-    '@benoit.marty:matrix.org'
+    '@benoit.marty:matrix.org',
+    '@daniellekirkwood:one.ems.host'
 ]
 
 [[projects]]
