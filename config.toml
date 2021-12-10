@@ -624,3 +624,12 @@ usual_reporters = [
   '@erlend_sh:matrix.org',
   '@ahq:matrix.org']
 
+[[projects]]
+emoji = 'matrix-streamchat?'
+name = 'matrix-streamchat'
+title = 'matrix-streamchat'
+description = 'Matrix powered stream overlay for OBS, to integrate live chat in your favorite (selfhosted) streaming setups.'
+website = 'https://git.pixie.town/f0x/matrix-streamchat'
+default_section = 'non-chat-clients'
+usual_reporters = ['@f0x:pixie.town']
+
