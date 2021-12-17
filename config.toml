@@ -636,3 +636,13 @@ website = 'https://git.pixie.town/f0x/matrix-streamchat'
 default_section = 'non-chat-clients'
 usual_reporters = ['@f0x:pixie.town']
 
+[[projects]]
+emoji = 'highlight?'
+name = 'matrix-highlight'
+title = 'Matrix Highlight'
+description = 'A decentralized and federated way of annotating the web based on Matrix.'
+website = 'https://github.com/DanilaFe/matrix-highlight'
+default_section = 'non-chat-clients'
+usual_reporters = ['@daniel:matrix.danilafe.com']
+
+
