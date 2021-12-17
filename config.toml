@@ -653,3 +653,13 @@ description = 'A Social Annotation Tool Powered by Matrix'
 website = 'https://github.com/opentower/populus-viewer'
 default_section = 'non-chat-clients'
 usual_reporters = ['@gleachkr:matrix.org']
+
+[[projects]]
+emoji = 'dimension?'
+name = 'dimension'
+title = 'Dimension'
+description = 'An open source integration manager for matrix clients, like Element.'
+website = 'https://github.com/turt2live/matrix-dimension'
+default_section = 'sdks'
+usual_reporters = ['@travis:t2l.io']
+
