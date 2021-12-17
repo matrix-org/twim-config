@@ -671,3 +671,12 @@ description = 'A Github Action for sending messages to a Matrix Room.'
 website = 'https://github.com/KrazyKirby99999/matrix-commit'
 default_section = 'ops'
 usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'ChatStat?'
+name = 'chatstat'
+title = 'ChatStat'
+description = 'An R package To Gather Stats From Chat Platforms'
+website = 'https://github.com/GregSutcliffe/ChatStat/'
+default_section = 'projects'
+usual_reporters = ['@gwmngilfen:matrix.org']
