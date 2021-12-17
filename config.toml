@@ -690,3 +690,12 @@ website = 'https://github.com/mrjohnson22/matrix-imposter-bot'
 default_section = 'bots'
 usual_reporters = ['@mr_johnson22:matrix.org']
 
+[[projects]]
+emoji = 'vodozemac?'
+name = 'vodozemac'
+title = 'vodozemac'
+description = 'An implementation of Olm and Megolm in pure Rust.'
+website = 'https://github.com/matrix-org/vodozemac'
+default_section = 'sdks'
+usual_reporters = ['@poljar:matrix.org']
+
