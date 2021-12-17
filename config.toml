@@ -680,3 +680,13 @@ description = 'An R package To Gather Stats From Chat Platforms'
 website = 'https://github.com/GregSutcliffe/ChatStat/'
 default_section = 'projects'
 usual_reporters = ['@gwmngilfen:matrix.org']
+
+[[projects]]
+emoji = 'imposterbot?'
+name = 'matrix-imposter-bot'
+title = 'matrix-imposter-bot'
+description = 'A Matrix appservice for relaying messages.'
+website = 'https://github.com/mrjohnson22/matrix-imposter-bot'
+default_section = 'bots'
+usual_reporters = ['@mr_johnson22:matrix.org']
+
