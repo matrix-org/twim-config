@@ -645,4 +645,11 @@ website = 'https://github.com/DanilaFe/matrix-highlight'
 default_section = 'non-chat-clients'
 usual_reporters = ['@daniel:matrix.danilafe.com']
 
-
+[[projects]]
+emoji = 'pops-viewr?'
+name = 'populus-viewer'
+title = 'Populus Viewer'
+description = 'A Social Annotation Tool Powered by Matrix'
+website = 'https://github.com/opentower/populus-viewer'
+default_section = 'non-chat-clients'
+usual_reporters = ['@gleachkr:matrix.org']
