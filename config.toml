@@ -663,3 +663,11 @@ website = 'https://github.com/turt2live/matrix-dimension'
 default_section = 'sdks'
 usual_reporters = ['@travis:t2l.io']
 
+[[projects]]
+emoji = 'commit?'
+name = 'matrix-commit'
+title = 'matrix-commit'
+description = 'A Github Action for sending messages to a Matrix Room.'
+website = 'https://github.com/KrazyKirby99999/matrix-commit'
+default_section = 'ops'
+usual_reporters = ['@krazykirby99999:matrix.org']
