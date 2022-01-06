@@ -733,4 +733,4 @@ title = 'matrix-media-repo'
 description = 'Matrix media repository with multi-domain in mind.'
 website = 'https://github.com/turt2live/matrix-media-repo'
 default_section = 'servers'
-usual_reporter = ['@travis:t2l.io']
+usual_reporters = ['@travis:t2l.io']
