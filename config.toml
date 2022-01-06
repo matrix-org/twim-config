@@ -717,3 +717,12 @@ website = 'https://gitlab.com/jaller94/matrix-wrench/'
 default_section = 'non-chat-clients'
 usual_reporters = ['@christianp:vector.modular.im']
 
+[[projects]]
+emoji = 'matrix-bot-sdk?'
+name = 'matrix-bot-sdk'
+title = 'matrix-bot-sdk'
+description = 'A TypeScript/JavaScript SDK for Matrix bots'
+website = 'https://github.com/turt2live/matrix-bot-sdk'
+default_section = 'sdks'
+usual_reporters = ['@travis:t2l.io']
+
