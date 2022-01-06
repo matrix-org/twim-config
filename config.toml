@@ -84,7 +84,7 @@ usual_reporters = []
 [[sections]]
 emoji = '🎛️'
 name = 'non-chat-clients'
-title = 'Dept of Non Clients 🎛️'
+title = 'Dept of Non Chat Clients 🎛️'
 order = 1110
 usual_reporters = []
 
@@ -707,4 +707,13 @@ description = 'An implementation of Olm and Megolm in pure Rust.'
 website = 'https://github.com/matrix-org/vodozemac'
 default_section = 'sdks'
 usual_reporters = ['@poljar:matrix.org']
+
+[[projects]]
+emoji = 'wrench?'
+name = 'matrix-wrench'
+title = 'Matrix Wrench'
+description = 'Matrix Wrench is a web client to tweak Matrix rooms.'
+website = 'https://gitlab.com/jaller94/matrix-wrench/'
+default_section = 'non-chat-clients'
+usual_reporters = ['@christianp:vector.modular.im']
 
