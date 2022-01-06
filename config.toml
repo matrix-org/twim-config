@@ -416,6 +416,15 @@ default_section = 'homeserver-deployment'
 usual_reporters = ['@ace:kittenface.studio']
 
 [[projects]]
+emoji = 'k8s dendrite?'
+name = 'dendrite-helm-chart'
+title = 'Dendrite Helm Chart'
+description ='Helm Chart to deploy Dendrite on Kubernetes'
+website = 'https://github.com/k8s-at-home/charts/tree/master/charts/incubator/dendrite'
+default_section = 'homeserver-deployment'
+usual_reporters = ['@gh-jonnobrow:matrix.org']
+
+[[projects]]
 emoji = 'Pinecone?'
 name = 'pinecone'
 title = 'Pinecone'
