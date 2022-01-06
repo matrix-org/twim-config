@@ -734,3 +734,12 @@ description = 'Matrix media repository with multi-domain in mind.'
 website = 'https://github.com/turt2live/matrix-media-repo'
 default_section = 'servers'
 usual_reporters = ['@travis:t2l.io']
+
+[[projects]]
+emoji = 'polyjuice?'
+name = 'Polyjuice'
+title = 'Polyjuice'
+description = 'Elixir libraries related to the Matrix communications protocol.'
+website = 'https://gitlab.com/polyjuice'
+default_section = 'sdks'
+usual_reporters = ['@hubert:uhoreg.ca']
