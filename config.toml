@@ -6,6 +6,7 @@ image_emoji = '📷️'
 image_markdown = '> ![](/blog/img/{{file}})'
 video_emoji = '🎥'
 video_markdown = '> {{< video src="{{file}}" >}}'
+verbs = ["reports", "says", "announces"]
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@thib:ergaster.org'
