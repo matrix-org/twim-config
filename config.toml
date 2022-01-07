@@ -753,3 +753,12 @@ description = 'Matrix compliance test suite'
 website = 'https://github.com/matrix-org/complement'
 default_section = 'sdks'
 usual_reporters = ['@kegan:matrix.org']
+
+[[projects]]
+emoji = 'nixos-dept?'
+name = 'nixos-deployment'
+title = 'NixOS Deployment'
+description = 'Matrix packaging for NixOS'
+website = 'https://nixos.org'
+default_section = 'ops'
+usual_reporters = ['@piegames:matrix.org']
