@@ -762,3 +762,12 @@ description = 'Matrix packaging for NixOS'
 website = 'https://nixos.org'
 default_section = 'ops'
 usual_reporters = ['@piegames:matrix.org']
+
+[[projects]]
+emoji = 'dckr-ansible-dpy?'
+name = 'matrix-docker-ansible-deploy'
+title = 'matrix-docker-ansible-deploy'
+description = 'Matrix server setup using Ansible and Docker'
+website = 'https://github.com/spantaleev/matrix-docker-ansible-deploy'
+default_section = 'ops'
+usual_reporters = ['@slavi:devture.com']
