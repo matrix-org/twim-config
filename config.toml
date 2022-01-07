@@ -743,3 +743,12 @@ description = 'Elixir libraries related to the Matrix communications protocol.'
 website = 'https://gitlab.com/polyjuice'
 default_section = 'sdks'
 usual_reporters = ['@hubert:uhoreg.ca']
+
+[[projects]]
+emoji = 'complement?'
+name = 'complement'
+title = 'Complement'
+description = 'Matrix compliance test suite'
+website = 'https://github.com/matrix-org/complement'
+default_section = 'sdks'
+usual_reporters = ['@kegan:matrix.org']
