@@ -771,3 +771,12 @@ description = 'Matrix server setup using Ansible and Docker'
 website = 'https://github.com/spantaleev/matrix-docker-ansible-deploy'
 default_section = 'ops'
 usual_reporters = ['@slavi:devture.com']
+
+[[projects]]
+emoji = 'cactus?'
+name = 'cactus'
+title = 'Cactus Comments'
+description = 'Cactus Comments is a federated comment system for the web, based on the Matrix protocol.'
+website = 'https://cactus.chat'
+default_section = 'non-chat-clients'
+usual_reporters = ['@asbjorn:olli.ng']
