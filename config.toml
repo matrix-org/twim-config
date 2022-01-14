@@ -798,3 +798,12 @@ description = 'A Devianart Fork based on Matrix'
 website = 'https://github.com/MTRNord/matrix-art'
 default_section = 'projects'
 usual_reporters = ['@mtrnord:nordgedanken.dev']
+
+[[projects]]
+emoji = 'gh-bot?'
+name = 'gh-bot'
+title = 'GH-Bot'
+description = 'The worst (according to its author!) but simplest webhook bot for GitHub and Matrix.'
+website = 'https://github.com/Jaedotmoe/gh-bot'
+default_sections = 'bots'
+usual_reporters = ['@me:jae.fi']
