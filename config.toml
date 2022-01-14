@@ -816,3 +816,12 @@ description = 'Use Matrix as a backend for local-first applications with the Mat
 website = 'https://github.com/yousefED/matrix-crdt'
 default_section = 'sdks'
 usual_reporters = ['@yousefed:matrix.org']
+
+[[projects]]
+emoji = 'beeper?'
+name = 'beeper'
+title = 'Beeper'
+description = 'All you chats in one app.'
+website = 'https://www.beeper.com'
+default_section = 'clients'
+usual_reporters = ['@brad:beeper.com']
