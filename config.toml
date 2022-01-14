@@ -780,3 +780,12 @@ description = 'Cactus Comments is a federated comment system for the web, based 
 website = 'https://cactus.chat'
 default_section = 'non-chat-clients'
 usual_reporters = ['@asbjorn:olli.ng']
+
+[[projects]]
+emoji = 'ruby-sdk?'
+name = 'ruby-matrix-sdk'
+title = 'ruby-matrix-sdk'
+description = 'Ruby SDK for the Matrix communication protocol'
+website = 'https://github.com/ananace/ruby-matrix-sdk'
+default_section = 'sdks'
+usual_reporters = ['@ace:kittenface.studio']
