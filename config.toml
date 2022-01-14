@@ -789,3 +789,12 @@ description = 'Ruby SDK for the Matrix communication protocol'
 website = 'https://github.com/ananace/ruby-matrix-sdk'
 default_section = 'sdks'
 usual_reporters = ['@ace:kittenface.studio']
+
+[[projects]]
+emoji = 'mx-art?'
+name = 'matrix-art'
+title = 'matrix-art'
+description = 'A Devianart Fork based on Matrix'
+website = 'https://github.com/MTRNord/matrix-art'
+default_section = 'projects'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
