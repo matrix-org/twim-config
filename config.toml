@@ -805,5 +805,14 @@ name = 'gh-bot'
 title = 'GH-Bot'
 description = 'The worst (according to its author!) but simplest webhook bot for GitHub and Matrix.'
 website = 'https://github.com/Jaedotmoe/gh-bot'
-default_sections = 'bots'
+default_section = 'bots'
 usual_reporters = ['@me:jae.fi']
+
+[[projects]]
+emoji = 'mx-crdt?'
+name = 'matrix-crdt'
+title = 'matrix-crdt'
+description = 'Use Matrix as a backend for local-first applications with the Matrix-CRDT Yjs provider.'
+website = 'https://github.com/yousefED/matrix-crdt'
+default_section = 'sdks'
+usual_reporters = ['@yousefed:matrix.org']
