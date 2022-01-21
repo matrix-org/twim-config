@@ -834,3 +834,12 @@ description = 'E2E encrypted social networking built on Matrix. Safe, private sh
 website = 'https://www.kombuchaprivacy.com/circles/'
 default_section = 'non-chat-clients'
 usual_reporters = ['@cvwright:matrix.org']
+
+[[projects]]
+emoji = 'emm?'
+name = 'emm'
+title = 'export matrix messages'
+description = 'A commandline utility to export matrix messages'
+website = 'https://gitlab.com/etke.cc/emm'
+default_section = 'non-chat-clients'
+usual_reporters = ['@aine:etke.cc']
