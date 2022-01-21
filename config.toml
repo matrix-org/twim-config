@@ -825,3 +825,12 @@ description = 'All you chats in one app.'
 website = 'https://www.beeper.com'
 default_section = 'clients'
 usual_reporters = ['@brad:beeper.com']
+
+[[projects]]
+emoji = 'circles?'
+name = 'circles'
+title = 'Circles'
+description = 'E2E encrypted social networking built on Matrix. Safe, private sharing for your friends, family, and community.'
+website = 'https://www.kombuchaprivacy.com/circles/'
+default_section = 'non-chat-clients'
+usual_reporters = ['@cvwright:matrix.org']
