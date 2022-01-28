@@ -224,7 +224,9 @@ title = 'Fractal'
 description = 'Matrix messaging app for GNOME written in Rust.'
 website = 'https://gitlab.gnome.org/GNOME/fractal'
 default_section = 'clients'
-usual_reporters = ['@afranke:matrix.org']
+usual_reporters = [
+    '@afranke:matrix.org',
+    '@jsparber:gnome.org']
 
 [[projects]]
 emoji = 'FluffyChat?'
@@ -357,7 +359,8 @@ default_section = 'clients'
 usual_reporters = [
     '@thib:ergaster.org',
     '@kittykat:matrix.org',
-    '@daniellekirkwood:one.ems.host'
+    '@daniellekirkwood:one.ems.host',
+    '@Manu:matrix.org'
 ]
 
 [[projects]]
