@@ -883,3 +883,12 @@ website = 'https://github.com/elokapina/bubo'
 default_section = 'bots'
 usual_reporters = ['@jaywink:federator.dev']
 
+[[projects]]
+emoji = 'moment?'
+name = 'moment'
+title = 'Moment'
+description = 'A Matrix client; forked from Mirage.'
+website = 'https://mx-moment.xyz'
+default_section = 'clients'
+usual_reporters = ['@maze:mazie.rocks']
+
