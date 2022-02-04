@@ -429,6 +429,15 @@ default_section = 'homeserver-deployment'
 usual_reporters = ['@gh-jonnobrow:matrix.org']
 
 [[projects]]
+emoji = 'dendrite-helm?'
+name = 'dendrite-helm'
+title = 'Dendrite Helm'
+description = 'This chart creates a polylith, where every component is in its own deployment and requires a Postgres server aswell as a NATS JetStream server.'
+website = 'https://github.com/S7evinK/dendrite-helm'
+default_section = 'homeserver-deployment'
+usual_reporters = ['@s7evink:dendrite.s3cr3t.me']
+
+[[projects]]
 emoji = 'Pinecone?'
 name = 'pinecone'
 title = 'Pinecone'
