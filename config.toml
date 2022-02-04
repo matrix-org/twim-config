@@ -910,3 +910,12 @@ website = 'https://github.com/devture/matrix-corporal'
 default_section = 'ops'
 usual_reporters = ['@slavi:devture.com']
 
+[[projects]]
+emoji = 'nheko-krunner?'
+name = 'nheko-krunner'
+title = 'nehko-krunner'
+description = 'A KRunner plugin to list joined rooms and possibly other things from nheko.'
+website = 'https://github.com/LorenDB/nheko-krunner'
+default_section = 'non-chat-clients'
+usual_reporters = ['@lorendb:matrix.org']
+
