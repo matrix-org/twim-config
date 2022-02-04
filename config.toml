@@ -892,3 +892,12 @@ website = 'https://mx-moment.xyz'
 default_section = 'clients'
 usual_reporters = ['@maze:mazie.rocks']
 
+[[projects]]
+emoji = 'corporal?'
+name = 'matrix-corporal'
+title = 'Matrix Corporal'
+description = 'reconciliator and gateway for a managed Matrix server'
+website = 'https://github.com/devture/matrix-corporal'
+default_section = 'ops'
+usual_reporters = ['@slavi:devture.com']
+
