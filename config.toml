@@ -360,7 +360,8 @@ usual_reporters = [
     '@thib:ergaster.org',
     '@kittykat:matrix.org',
     '@daniellekirkwood:one.ems.host',
-    '@Manu:matrix.org'
+    '@Manu:matrix.org',
+    '@douge:matrix.org'
 ]
 
 [[projects]]
@@ -374,7 +375,8 @@ usual_reporters = [
     '@thib:ergaster.org',
     '@kittykat:matrix.org',
     '@benoit.marty:matrix.org',
-    '@daniellekirkwood:one.ems.host'
+    '@daniellekirkwood:one.ems.host',
+    '@ouchadam:matrix.org'
 ]
 
 [[projects]]
