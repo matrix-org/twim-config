@@ -921,3 +921,12 @@ website = 'https://github.com/LorenDB/nheko-krunner'
 default_section = 'non-chat-clients'
 usual_reporters = ['@lorendb:matrix.org']
 
+[[projects]]
+emoji = 'matrix-wordle?'
+name = 'matrix-wordle'
+title = 'matrix-wordle'
+description = 'An implementation of the popular Wordle game for the Matrix Protocol.'
+website = 'https://github.com/KrazyKirby99999/matrix-wordle'
+default_section = 'bots'
+usual_reporters = ['@krazykirby99999:matrix.org']
+
