@@ -936,3 +936,12 @@ description = 'An implementation of the popular Wordle game for the Matrix Proto
 website = 'https://github.com/KrazyKirby99999/matrix-wordle'
 default_section = 'bots'
 usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'mnir-widget?'
+name = 'mnir-widget'
+title = 'Mjolnir Widget'
+description = 'A widget for moderating with mjolnir. Highly WIP. Use at your own risk!'
+website = 'https://github.com/MTRNord/matrix-moderation-widget'
+default_sections = 'widgets'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
