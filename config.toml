@@ -943,5 +943,14 @@ name = 'mnir-widget'
 title = 'Mjolnir Widget'
 description = 'A widget for moderating with mjolnir. Highly WIP. Use at your own risk!'
 website = 'https://github.com/MTRNord/matrix-moderation-widget'
-default_sections = 'widgets'
+default_section = 'widgets'
 usual_reporters = ['@mtrnord:nordgedanken.dev']
+
+[[projects]]
+emoji = 'mtx-client?'
+name = 'mtx-client'
+title = 'mtx-client'
+description = 'Client API library for Matrix, built on top of libcurl'
+website = 'https://github.com/Nheko-Reborn/mtxclient'
+default_section = 'sdks'
+usual_reporters = ['@deepbluev7:neko.dev']
