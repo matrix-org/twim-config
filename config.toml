@@ -947,9 +947,9 @@ default_section = 'widgets'
 usual_reporters = ['@mtrnord:nordgedanken.dev']
 
 [[projects]]
-emoji = 'mtx-client?'
-name = 'mtx-client'
-title = 'mtx-client'
+emoji = 'mtxclient?'
+name = 'mtxclient'
+title = 'mtxclient'
 description = 'Client API library for Matrix, built on top of libcurl'
 website = 'https://github.com/Nheko-Reborn/mtxclient'
 default_section = 'sdks'
