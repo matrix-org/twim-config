@@ -915,7 +915,7 @@ usual_reporters = ['@slavi:devture.com']
 [[projects]]
 emoji = 'nheko-krunner?'
 name = 'nheko-krunner'
-title = 'nehko-krunner'
+title = 'nheko-krunner'
 description = 'A KRunner plugin to list joined rooms and possibly other things from nheko.'
 website = 'https://github.com/LorenDB/nheko-krunner'
 default_section = 'non-chat-clients'
@@ -929,4 +929,3 @@ description = 'An implementation of the popular Wordle game for the Matrix Proto
 website = 'https://github.com/KrazyKirby99999/matrix-wordle'
 default_section = 'bots'
 usual_reporters = ['@krazykirby99999:matrix.org']
-
