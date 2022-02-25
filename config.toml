@@ -963,3 +963,12 @@ description = 'Looking for a bot to manage events and feedback from your communi
 website = 'https://gitlab.com/Sleuth56/Matrix-Community-Manager/'
 default_section = 'bots'
 usual_reporters = ['@sloth56:chat.mountainview.theworkpc.com']
+
+[[projects]]
+emoji = 'kakaotalk bridge?'
+name = 'matrix-appservice-kakaotalk'
+title = 'matrix-appservice-kakaotalk'
+description = 'A Matrix-KakaoTalk puppeting bridge.'
+website = 'https://src.miscworks.net/fair/matrix-appservice-kakaotalk/'
+default_section = 'bridges'
+usual_reporters = ['@fair:miscworks.net']
