@@ -90,6 +90,13 @@ order = 1110
 usual_reporters = []
 
 [[sections]]
+emoji = '🧩'
+name = 'widgets'
+title = 'Dept of Widgets 🧩'
+order = 1115
+usual_reporters = []
+
+[[sections]]
 emoji = '🤙'
 name = 'voip'
 title = 'Dept of VoIP 🤙'
