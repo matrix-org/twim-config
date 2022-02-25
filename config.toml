@@ -954,3 +954,12 @@ description = 'Client API library for Matrix, built on top of libcurl'
 website = 'https://github.com/Nheko-Reborn/mtxclient'
 default_section = 'sdks'
 usual_reporters = ['@deepbluev7:neko.dev']
+
+[[projects]]
+emoji = 'commty-mgr?'
+name = 'matrix-community-manager'
+title = 'Matrix Community Manager'
+description = 'Looking for a bot to manage events and feedback from your community?'
+website = 'https://gitlab.com/Sleuth56/Matrix-Community-Manager/'
+default_section = 'bots'
+usual_repoters = ['@sloth56:chat.mountainview.theworkpc.com']
