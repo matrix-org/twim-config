@@ -407,7 +407,9 @@ website = 'https://invent.kde.org/network/neochat'
 default_section = 'servers'
 usual_reporters = [
     '@neilalexander:matrix.org',
-    '@neilalexander:dendrite.matrix.org'
+    '@neilalexander:dendrite.matrix.org',
+    '@kegan:matrix.org',
+    '@s7evink:matrix.org'
 ]
 
 [[projects]]
