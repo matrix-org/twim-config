@@ -983,3 +983,12 @@ description = 'A set of Rust library crates for working with the Matrix protocol
 website = 'https://www.ruma.io'
 default_section = 'sdks'
 usual_reporters = ['@jplatte:flipdot.org']
+
+[[projects]]
+emoji = 'Synatainer?'
+name = 'synatainer'
+title = 'Synatainer'
+description = 'Synapse Maintenance Container – Docker container with tools for synapse & postgres database maintenance'
+website = 'https://gitlab.com/mb-saces/synatainer'
+default_section = 'ops'
+usual_reporters = ['@saces:c-base.org']
