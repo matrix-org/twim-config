@@ -1019,3 +1019,12 @@ description = 'Minimal Android messenger powered by Matrix'
 website = 'https://github.com/ouchadam/small-talk'
 default_section = 'clients'
 usual_reporters = ['@ouchadam:matrix.org']
+
+[[projects]]
+emoji = 'gatho?'
+name = 'gatho'
+title = 'Gatho'
+description = 'Invite friends to your event with a one-click RSVP link - no matter which chat/social app they use!'
+website = 'https://gatho.party'
+default_section = 'non-chat-clients'
+usual_reporters = ['@jake:matrix.gatho.party']
