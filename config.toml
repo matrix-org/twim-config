@@ -258,6 +258,7 @@ usual_reporters = [
     '@callahad:matrix.org',
     '@erikj:jki.re',
     '@babolivier:vector.modular.im',
+    '@babolivier:element.io',
     '@dmrobertson:matrix.org'
 ]
 
