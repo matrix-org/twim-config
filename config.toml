@@ -1010,3 +1010,12 @@ description = 'Node.js IRC bridge for Matrix'
 website = 'https://github.com/matrix-org/matrix-appservice-irc'
 default_section = 'bridges'
 usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'SmallTalk?'
+name = 'smalltalk'
+title = 'SmallTalk'
+description = 'Minimal Android messenger powered by Matrix'
+website = 'https://github.com/ouchadam/small-talk'
+default_section = 'clients'
+usual_reporters = ['@ouchadam:matrix.org']
