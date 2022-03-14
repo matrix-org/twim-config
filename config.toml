@@ -251,13 +251,14 @@ usual_reporters = [
 emoji = 'Synapse?'
 name = 'synapse'
 title = 'Synapse'
-description = 'Synapse is the reference homeserver for Matrix'
+description = 'Synapse is a Matrix homeserver implementation developed by the matrix.org core team'
 website = 'https://github.com/matrix-org/synapse/'
 default_section = 'servers'
 usual_reporters = [
     '@callahad:matrix.org',
     '@erikj:jki.re',
     '@babolivier:vector.modular.im',
+    '@babolivier:element.io',
     '@dmrobertson:matrix.org'
 ]
 
@@ -407,7 +408,9 @@ website = 'https://invent.kde.org/network/neochat'
 default_section = 'servers'
 usual_reporters = [
     '@neilalexander:matrix.org',
-    '@neilalexander:dendrite.matrix.org'
+    '@neilalexander:dendrite.matrix.org',
+    '@kegan:matrix.org',
+    '@s7evink:matrix.org'
 ]
 
 [[projects]]
@@ -815,7 +818,7 @@ usual_reporters = ['@ace:kittenface.studio']
 emoji = 'mx-art?'
 name = 'matrix-art'
 title = 'matrix-art'
-description = 'A Devianart Fork based on Matrix'
+description = 'An image gallery for Matrix'
 website = 'https://github.com/MTRNord/matrix-art'
 default_section = 'projects'
 usual_reporters = ['@mtrnord:nordgedanken.dev']
@@ -972,3 +975,57 @@ description = 'A Matrix-KakaoTalk puppeting bridge.'
 website = 'https://src.miscworks.net/fair/matrix-appservice-kakaotalk/'
 default_section = 'bridges'
 usual_reporters = ['@fair:miscworks.net']
+
+[[projects]]
+emoji = 'Ruma?'
+name = 'ruma'
+title = 'Ruma'
+description = 'A set of Rust library crates for working with the Matrix protocol. Ruma’s approach to Matrix emphasizes correctness, security, stability and performance.'
+website = 'https://www.ruma.io'
+default_section = 'sdks'
+usual_reporters = ['@jplatte:flipdot.org']
+
+[[projects]]
+emoji = 'Synatainer?'
+name = 'synatainer'
+title = 'Synatainer'
+description = 'Synapse Maintenance Container – Docker container with tools for synapse & postgres database maintenance'
+website = 'https://gitlab.com/mb-saces/synatainer'
+default_section = 'ops'
+usual_reporters = ['@saces:c-base.org']
+
+[[projects]]
+emoji = 'Emt Call?'
+name = 'element-call'
+title = 'Element Call'
+description = 'Native Decentralised End-to-end Encrypted Group Calls in Matrix, as a standalone web app'
+website = 'https://call.element.io'
+default_section = 'voip'
+usual_reporters = ['@matthew:matrix.org']
+
+[[projects]]
+emoji = 'AS IRC?'
+name = 'matrix-appservice-irc'
+title = 'matrix-appservice-irc'
+description = 'Node.js IRC bridge for Matrix'
+website = 'https://github.com/matrix-org/matrix-appservice-irc'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'SmallTalk?'
+name = 'smalltalk'
+title = 'SmallTalk'
+description = 'Minimal Android messenger powered by Matrix'
+website = 'https://github.com/ouchadam/small-talk'
+default_section = 'clients'
+usual_reporters = ['@ouchadam:matrix.org']
+
+[[projects]]
+emoji = 'gatho?'
+name = 'gatho'
+title = 'Gatho'
+description = 'Invite friends to your event with a one-click RSVP link - no matter which chat/social app they use!'
+website = 'https://gatho.party'
+default_section = 'non-chat-clients'
+usual_reporters = ['@jake:matrix.gatho.party']
