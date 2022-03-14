@@ -965,7 +965,7 @@ title = 'Matrix Community Manager'
 description = 'Looking for a bot to manage events and feedback from your community?'
 website = 'https://gitlab.com/Sleuth56/Matrix-Community-Manager/'
 default_section = 'bots'
-usual_reporters = ['@sloth56:chat.mountainview.theworkpc.com']
+usual_reporters = ['@sloth56:chat.mountainview.theworkpc.com', '@sleuth:rexrobotics.org']
 
 [[projects]]
 emoji = 'kakaotalk bridge?'
