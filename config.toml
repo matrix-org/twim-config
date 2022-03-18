@@ -1038,3 +1038,13 @@ description = 'Matrix Client-Server SDK for Rust'
 website = 'https://github.com/matrix-org/matrix-rust-sdk'
 default_section = 'sdks'
 usual_reporters = ['@jplatte:flipdot.org']
+
+[[projects]]
+emoji = '3rd room?'
+name = 'thirdroom'
+title = 'Thirdroom'
+description = 'A browser-based open metaverse client'
+website = 'https://github.com/matrix-org/thirdroom'
+default_section = 'non-chat-clients'
+usual_reporters = ['@arobertlong:matrix.org']
+
