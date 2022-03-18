@@ -1029,3 +1029,12 @@ description = 'Invite friends to your event with a one-click RSVP link - no matt
 website = 'https://gatho.party'
 default_section = 'non-chat-clients'
 usual_reporters = ['@jake:matrix.gatho.party']
+
+[[projects]]
+emoji = 'rust-sdk?'
+name = 'matrix-rust-sdk'
+title = 'matrix-rust-sdk'
+description = 'Matrix Client-Server SDK for Rust'
+website = 'https://github.com/matrix-org/matrix-rust-sdk'
+default_section = 'sdks'
+usual_reporters = ['@jplatte:flipdot.org']
