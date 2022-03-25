@@ -576,7 +576,10 @@ title = 'Mjölnir'
 description = 'The moderation bot for Matrix'
 website = 'https://github.com/matrix-org/mjolnir'
 default_section = 'bots'
-usual_reporters = ['@dotyoric:matrix.org']
+usual_reporters = [
+    '@dotyoric:matrix.org',
+    '@gnuxie:matrix.org'
+]
 
 [[projects]]
 emoji = 'synadm?'
