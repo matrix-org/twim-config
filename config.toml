@@ -477,7 +477,10 @@ title = 'SchildiChat'
 description = 'SchildiChat is a fork of Element that focuses on UI changes such as message bubbles and a unified chat list for both direct messages and groups, which is a more familiar approach to users of other popular instant messengers.'
 website = 'https://schildi.chat'
 default_section = 'clients'
-usual_reporters = ['@qg:supercable.onl']
+usual_reporters = [
+    '@qg:supercable.onl',
+    '@spiritcroc:spiritcroc.de'
+]
 
 [[projects]]
 emoji = 'standupbot?'
