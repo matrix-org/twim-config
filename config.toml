@@ -1059,7 +1059,7 @@ emoji = 'syphon?'
 name = 'syphon'
 title = 'Syphon'
 description = 'Chat with your privacy and freedom intact'
-website = ' https://syphon.org'
+website = 'https://syphon.org'
 default_section = 'clients'
 usual_reporters = [
     '@0x1a8510f2:0x1a8510f2.space',
@@ -1068,3 +1068,11 @@ usual_reporters = [
     '@dnisbetjones:mozilla.org'
 ]
 
+[[projects]]
+emoji = 'element.el?'
+name = 'element.el'
+title = 'element.el'
+description = 'Matrix client for emacs'
+website = 'https://github.com/alphapapa/ement.el'
+default_section = 'clients'
+usual_reporters = ['@alphapapa:matrix.org']
