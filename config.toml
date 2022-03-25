@@ -1054,7 +1054,7 @@ website = 'https://github.com/matrix-org/thirdroom'
 default_section = 'non-chat-clients'
 usual_reporters = ['@arobertlong:matrix.org']
 
-[[Syphon]]
+[[projects]]
 emoji = 'syphon?'
 name = 'syphon'
 title = 'Syphon'
