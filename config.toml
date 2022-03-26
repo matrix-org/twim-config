@@ -1069,10 +1069,10 @@ usual_reporters = [
 ]
 
 [[projects]]
-emoji = 'element.el?'
-name = 'element.el'
-title = 'element.el'
-description = 'Matrix client for emacs'
+emoji = 'Ement.el?'
+name = 'ement.el'
+title = 'Ement.el'
+description = 'Matrix client for Emacs'
 website = 'https://github.com/alphapapa/ement.el'
 default_section = 'clients'
 usual_reporters = ['@alphapapa:matrix.org']
