@@ -404,7 +404,7 @@ emoji = 'Dendrite?'
 name = 'dendrite'
 title = 'Dendrite'
 description = 'Second generation Matrix homeserver'
-website = 'https://invent.kde.org/network/neochat'
+website = 'https://github.com/matrix-org/dendrite'
 default_section = 'servers'
 usual_reporters = [
     '@neilalexander:matrix.org',
