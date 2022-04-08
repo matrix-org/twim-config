@@ -9,7 +9,8 @@ video_markdown = '> {{< video src="{{file}}" >}}'
 verbs = ["reports", "says", "announces"]
 update_config_command = "sh /data/update_config.sh"
 editors = [
-    '@thib:ergaster.org'
+    '@thib:ergaster.org',
+    '@benpa:bpulse.org'
 ]
 
 [[sections]]
