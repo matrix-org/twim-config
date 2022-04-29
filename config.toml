@@ -1086,3 +1086,12 @@ description = 'Matrix SDK written in pure Dart.'
 website = 'https://gitlab.com/famedly/company/frontend/famedlysdk'
 default_section = 'sdks'
 usual_reporters = ['@henri_carnot:famedly.de']
+
+[[projects]]
+emoji = 'opsdroid?'
+name = 'opsdroid'
+title = 'Opsdroid'
+description = 'An open source chat-ops bot framework'
+website = 'https://github.com/opsdroid/opsdroid'
+default_section = 'bots'
+usual_reporters = ['@cadair:cadair.com']
