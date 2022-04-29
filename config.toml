@@ -1095,3 +1095,13 @@ description = 'An open source chat-ops bot framework'
 website = 'https://github.com/opsdroid/opsdroid'
 default_section = 'bots'
 usual_reporters = ['@cadair:cadair.com']
+
+[[projects]]
+emoji = 'Buscarron?'
+name = 'buscarron'
+title = 'Buscarron'
+description = 'Web forms (HTTP POST) to matrix'
+website = 'https://gitlab.com/etke.cc/buscarron'
+default_section = 'ops'
+usual_reporters = ['@aine:etke.cc']
+
