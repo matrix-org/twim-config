@@ -1105,3 +1105,12 @@ website = 'https://gitlab.com/etke.cc/buscarron'
 default_section = 'ops'
 usual_reporters = ['@aine:etke.cc']
 
+[[projects]]
+emoji = 'thunderbird?'
+name = 'thunderbird'
+title = 'Thunderbird'
+description = 'Thunderbird is a free open-source email, calendar & chat app.'
+website = 'https://www.thunderbird.net'
+default_sections = 'clients'
+usual_reporters = ['@freaktechnik:humanoids.be']
+
