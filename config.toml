@@ -1111,6 +1111,6 @@ name = 'thunderbird'
 title = 'Thunderbird'
 description = 'Thunderbird is a free open-source email, calendar & chat app.'
 website = 'https://www.thunderbird.net'
-default_sections = 'clients'
+default_section = 'clients'
 usual_reporters = ['@freaktechnik:humanoids.be']
 
