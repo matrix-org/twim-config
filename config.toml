@@ -582,7 +582,8 @@ website = 'https://github.com/matrix-org/mjolnir'
 default_section = 'bots'
 usual_reporters = [
     '@dotyoric:matrix.org',
-    '@gnuxie:matrix.org'
+    '@gnuxie:matrix.org',
+    '@gnu_ponut:matrix.org'
 ]
 
 [[projects]]
