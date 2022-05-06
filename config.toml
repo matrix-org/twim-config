@@ -1115,3 +1115,12 @@ website = 'https://www.thunderbird.net'
 default_section = 'clients'
 usual_reporters = ['@freaktechnik:humanoids.be']
 
+[[projects]]
+emoji = 'graim?'
+name = 'graim'
+title = 'graim'
+description = 'A bot to moderate communities bridged with Discord via matrix-appservice-discord'
+website = 'https://github.com/luphoria/graim'
+default_section = 'bots'
+usual_reporters = ['@trent:gra.im']
+
