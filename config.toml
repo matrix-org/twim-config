@@ -260,7 +260,8 @@ usual_reporters = [
     '@erikj:jki.re',
     '@babolivier:vector.modular.im',
     '@babolivier:element.io',
-    '@dmrobertson:matrix.org'
+    '@dmrobertson:matrix.org',
+    '@squah:matrix.org'
 ]
 
 [[projects]]
