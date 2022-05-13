@@ -1046,7 +1046,10 @@ title = 'matrix-rust-sdk'
 description = 'Matrix Client-Server SDK for Rust'
 website = 'https://github.com/matrix-org/matrix-rust-sdk'
 default_section = 'sdks'
-usual_reporters = ['@jplatte:flipdot.org']
+usual_reporters = [
+    '@jplatte:flipdot.org',
+    '@gnunicorn:matrix.org'
+]
 
 [[projects]]
 emoji = '3rd room?'
