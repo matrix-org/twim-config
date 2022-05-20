@@ -1129,3 +1129,12 @@ website = 'https://github.com/luphoria/graim'
 default_section = 'bots'
 usual_reporters = ['@trent:gra.im']
 
+[[projects]]
+emoji = 'AS Discord?'
+name = 'matrix-appservice-discord'
+title = 'matrix-appservice-discord'
+description = 'A bridge between Matrix and Discord.'
+website = 'https://github.com/matrix-org/matrix-appservice-discord'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
