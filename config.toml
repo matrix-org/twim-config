@@ -1143,3 +1143,12 @@ description = 'Chatterbox lets you securely embed Hydrogen on any website!'
 website = 'https://github.com/vector-im/chatterbox'
 default_section = 'clients'
 usual_reporters = ['@rxl881:vector.modular.im']
+
+[[projects]]
+emoji = 'quadrix?'
+name = 'quadrix'
+title = 'Quadrix'
+description = 'A Minimal, simple, multi-platform chat client for the Matrix protocol.'
+website = 'https://github.com/alariej/quadrix'
+default_section = 'clients'
+usual_reporters = ['@alariej:matrix.org']
