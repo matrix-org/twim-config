@@ -2,15 +2,12 @@ bot_user_id = '@twim:cadair.com'
 reporting_room_id = '!QQpfJfZvqxbCfeDgCj:matrix.org'
 admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
 notice_emoji = '⭕️'
-image_emoji = '📷️'
 image_markdown = '> ![](/blog/img/{{file}})'
-video_emoji = '🎥'
 video_markdown = '> {{< video src="{{file}}" >}}'
 verbs = ["reports", "says", "announces"]
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@thib:ergaster.org',
-    '@babolivier:element.io'
 ]
 
 [[sections]]
@@ -1138,3 +1135,11 @@ website = 'https://github.com/matrix-org/matrix-appservice-discord'
 default_section = 'bridges'
 usual_reporters = ['@Half-Shot:half-shot.uk']
 
+[[projects]]
+emoji = 'chatterbox?'
+name = 'chatterbox'
+title = 'Chatterbox'
+description = 'Chatterbox lets you securely embed Hydrogen on any website!'
+website = 'https://github.com/vector-im/chatterbox'
+default_section = 'clients'
+usual_reporters = ['@rxl881:vector.modular.im']
