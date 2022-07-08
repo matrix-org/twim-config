@@ -1152,3 +1152,12 @@ description = 'A Minimal, simple, multi-platform chat client for the Matrix prot
 website = 'https://github.com/alariej/quadrix'
 default_section = 'clients'
 usual_reporters = ['@alariej:matrix.org']
+
+[[projects]]
+emoji = 'mx-room-emt?'
+name = 'matrix-room-element'
+title = 'matrix-room-element'
+description = 'A custom html element, web component, to display the latest messages from a matrix room'
+website = 'https://gitlab.com/sctlib/matrix-room-element'
+default_section = 'sdks'
+usual_reporters = ['@ugp:matrix.org']
