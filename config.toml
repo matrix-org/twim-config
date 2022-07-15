@@ -253,12 +253,12 @@ description = 'Synapse is a Matrix homeserver implementation developed by the ma
 website = 'https://github.com/matrix-org/synapse/'
 default_section = 'servers'
 usual_reporters = [
-    '@callahad:matrix.org',
     '@erikj:jki.re',
     '@babolivier:vector.modular.im',
     '@babolivier:element.io',
     '@dmrobertson:matrix.org',
-    '@squah:matrix.org'
+    '@squah:matrix.org',
+    '@shayshay:matrix.org'
 ]
 
 [[projects]]
