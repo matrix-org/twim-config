@@ -1167,7 +1167,7 @@ usual_reporters = ['@ugp:matrix.org']
 
 [[projects]]
 emoji = 'releasetracker?'
-title = 'matrix-releasetracker'
+name = 'matrix-releasetracker'
 title = 'Matrix Release Tracker'
 description = 'A release tracker that posts updates into Matrix rooms'
 website = 'https://github.com/ananace/matrix-releasetracker'
