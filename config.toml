@@ -325,7 +325,10 @@ title = 'Conduit'
 description = 'Conduit is a simple, fast and reliable chat server powered by Matrix'
 website = 'https://conduit.rs'
 default_section = 'servers'
-usual_reporters = ['@timokoesters:fachschaften.org']
+usual_reporters = [
+    '@timokoesters:fachschaften.org',
+    '@timo:conduit.rs'
+]
 
 [[projects]]
 emoji = 'Element?'
