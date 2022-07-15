@@ -1164,3 +1164,13 @@ description = 'A custom html element, web component, to display the latest messa
 website = 'https://gitlab.com/sctlib/matrix-room-element'
 default_section = 'sdks'
 usual_reporters = ['@ugp:matrix.org']
+
+[[projects]]
+emoji = 'releasetracker?'
+title = 'matrix-releasetracker'
+title = 'Matrix Release Tracker'
+description = 'A release tracker that posts updates into Matrix rooms'
+website = 'https://github.com/ananace/matrix-releasetracker'
+default_section = 'bots'
+usual_reporters = ['@ace:kittenface.studio']
+
