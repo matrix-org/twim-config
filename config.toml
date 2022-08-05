@@ -8,6 +8,8 @@ verbs = ["reports", "says", "announces"]
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@thib:ergaster.org',
+    '@andrewm:element.io',
+    '@babolivier:element.io'
 ]
 
 [[sections]]
