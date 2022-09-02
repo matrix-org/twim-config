@@ -1176,3 +1176,12 @@ website = 'https://github.com/ananace/matrix-releasetracker'
 default_section = 'bots'
 usual_reporters = ['@ace:kittenface.studio']
 
+[[projects]]
+emoji = 'effektio?'
+name = 'effektio'
+title = 'Effektio'
+description = 'The one mobile-first, decentralized community organizing app'
+website = 'https://effektio.org'
+default_section = 'non-chat-clients'
+usual_reporters = ['@gnunicorn:matrix.org']
+
