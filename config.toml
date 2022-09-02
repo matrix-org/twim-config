@@ -1185,3 +1185,12 @@ website = 'https://effektio.org'
 default_section = 'non-chat-clients'
 usual_reporters = ['@gnunicorn:matrix.org']
 
+[[projects]]
+emoji = 'postmoogle?'
+name = 'postmoogle'
+title = 'Postmoogle'
+description = 'An Email to Matrix bridge. 1 room = 1 mailbox.'
+website = 'https://gitlab.com/etke.cc/postmoogle'
+default_section = 'bridges'
+usual_reporters = ['@aine:etke.cc']
+
