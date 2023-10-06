@@ -648,10 +648,19 @@ usual_reporters = ['@kim:sosnowkadub.de']
 emoji = 'Trixnity?'
 name = 'trixnity'
 title = 'Trixnity'
-description = 'Multiplatform Kotlin SDK for Matrix'
+description = 'Multiplatform Kotlin SDK for developing Clients, Bots, Appservices and Servers'
 website = 'https://gitlab.com/trixnity/trixnity'
 default_section = 'sdks'
 usual_reporters = ['@benedict:imbitbu.de']
+
+[[projects]]
+emoji = 'Trixnity Messenger?'
+name = 'trixnity-messenger'
+title = 'Trixnity Messenger'
+description = 'Multiplatform Kotlin SDK for developing messengers'
+website = 'https://gitlab.com/connect2x/trixnity-messenger'
+default_section = 'sdks'
+usual_reporters = ['@bmichael:imbitbu.de','@benedict:imbitbu.de']
 
 [[projects]]
 emoji = 'Sydent?'
