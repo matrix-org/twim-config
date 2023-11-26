@@ -660,7 +660,7 @@ title = 'Trixnity Messenger'
 description = 'Multiplatform Kotlin SDK for developing messengers on top of Trixnity'
 website = 'https://gitlab.com/connect2x/trixnity-messenger'
 default_section = 'sdks'
-usual_reporters = ['@bmichael:imbitbu.de','@benedict:imbitbu.de']
+usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
 
 [[projects]]
 emoji = 'Sydent?'
