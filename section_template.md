@@ -1,6 +1,1 @@
-## {{section.title}}
-
-{{section.news}}
-
-{{section.projects}}
-
+./charts/files/section_template.md

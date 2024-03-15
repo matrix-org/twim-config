@@ -1,6 +1,1 @@
-### {{project.title}} ([website]({{project.website}}))
-
-{{project.description}}
-
-{{project.news}}
-
+./charts/files/project_template.md

@@ -1,0 +1,7 @@
+apiVersion: v1
+name: twim-bot
+description: A Helm chart for running ThisWeekInMatrix bot
+type: application
+
+version: "0.1.0"
+appVersion: "latest"
