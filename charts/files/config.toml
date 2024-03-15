@@ -1,0 +1,1196 @@
+bot_user_id = '@twim:cadair.com'
+reporting_room_id = '!QQpfJfZvqxbCfeDgCj:matrix.org'
+admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
+notice_emoji = '⭕️'
+image_markdown = '> ![](/blog/img/{{file}})'
+video_markdown = '> {{< video src="{{file}}" >}}'
+verbs = ["reports", "says", "announces"]
+update_config_command = "sh /data/update_config.sh"
+editors = [
+    '@thib:ergaster.org',
+    '@andrewm:element.io',
+    '@babolivier:element.io'
+]
+
+[[sections]]
+emoji = '✅'
+name = 'todo'
+title = 'TODO UNKNOWN SECTION'
+order = 1000
+usual_reporters = []
+
+[[sections]]
+emoji = '🌡️'
+name = 'status'
+title = 'Dept of *Status of Matrix* 🌡️'
+order = 1010
+usual_reporters = []
+
+[[sections]]
+emoji = '🙆'
+name = 'social'
+title = 'Dept of Social Good 🙆'
+order = 1020
+usual_reporters = ['@denise.a:vector.modular.im']
+
+[[sections]]
+emoji = '📜'
+name = 'spec'
+title = 'Dept of Spec 📜'
+order = 1030
+usual_reporters = ['@andrewm:amorgan.xyz']
+
+[[sections]]
+emoji = '🎓️'
+name = 'gsoc'
+title = 'Dept of GSoC 🎓️'
+order = 1040
+usual_reporters = []
+
+[[sections]]
+emoji = '👥'
+name = 'p2p'
+title = 'Dept of P2P 👥'
+order = 1050
+usual_reporters = []
+
+[[sections]]
+emoji = '🏢'
+name = 'servers'
+title = 'Dept of Servers 🏢'
+order = 1060
+usual_reporters = []
+
+[[sections]]
+emoji = '📥️'
+name = 'homeserver-deployment'
+title = 'Homeserver Deployment 📥️'
+order = 1080
+usual_reporters = []
+
+[[sections]]
+emoji = '🌉'
+name = 'bridges'
+title = 'Dept of Bridges 🌉'
+order = 1090
+usual_reporters = []
+
+[[sections]]
+emoji = '📱'
+name = 'clients'
+title = 'Dept of Clients 📱'
+order = 1100
+usual_reporters = []
+
+[[sections]]
+emoji = '🎛️'
+name = 'non-chat-clients'
+title = 'Dept of Non Chat Clients 🎛️'
+order = 1110
+usual_reporters = []
+
+[[sections]]
+emoji = '🧩'
+name = 'widgets'
+title = 'Dept of Widgets 🧩'
+order = 1115
+usual_reporters = []
+
+[[sections]]
+emoji = '🤙'
+name = 'voip'
+title = 'Dept of VoIP 🤙'
+order = 1120
+usual_reporters = []
+
+[[sections]]
+emoji = '🔐'
+name = 'encryption'
+title = 'Dept of Encryption 🔐'
+order = 1130
+usual_reporters = []
+
+[[sections]]
+emoji = '🧰'
+name = 'sdks'
+title = 'Dept of SDKs and Frameworks 🧰'
+order = 1140
+usual_reporters = []
+
+[[sections]]
+emoji = '🛠️'
+name = 'ops'
+title = 'Dept of Ops 🛠'
+order = 1150
+usual_reporters = []
+
+[[sections]]
+emoji = '🚀'
+name = 'services'
+title = 'Dept of Services 🚀'
+order = 1160
+usual_reporters = []
+
+[[sections]]
+emoji = '💡'
+name = 'iot'
+title = 'Dept of Internet of Things 💡'
+order = 1170
+usual_reporters = []
+
+[[sections]]
+emoji = '🤖'
+name = 'bots'
+title = 'Dept of Bots 🤖'
+order = 1180
+usual_reporters = []
+
+[[sections]]
+emoji = '📹'
+name = 'eventvideos'
+title = 'Dept of Videos 📹'
+order = 1190
+usual_reporters = []
+
+[[sections]]
+emoji = '🗣️'
+name = 'talks'
+title = 'Dept of Events and Talks 🗣️'
+order = 1200
+usual_reporters = []
+
+[[sections]]
+emoji = '🛰️'
+name = 'projects'
+title = 'Dept of Interesting Projects 🛰️'
+order = 1210
+usual_reporters = []
+
+[[sections]]
+emoji = '🏗️'
+name = 'build'
+title = 'Dept of *Built on Matrix* 🏗️'
+order = 1230
+usual_reporters = []
+
+[[sections]]
+emoji = '🧭'
+name = 'guides'
+title = 'Dept of Guides 🧭'
+order = 1240
+usual_reporters = []
+
+[[sections]]
+emoji = '🍕'
+name = 'hackathons'
+title = 'Dept of Hackathons 🍕'
+order = 1250
+usual_reporters = []
+
+[[sections]]
+emoji = '💰️'
+name = 'jobs'
+title = 'Dept of Jobs 💰️'
+order = 1260
+usual_reporters = []
+
+[[sections]]
+emoji = '📰'
+name = 'news'
+title = 'Matrix in the News 📰'
+order = 1270
+usual_reporters = []
+
+[[sections]]
+emoji = '📆'
+name = 'room-of-the-week'
+title = 'Room of the Week 📆'
+order = 1280
+usual_reporters = ['@timokoesters:fachschaften.org']
+
+[[sections]]
+emoji = '💭'
+name = 'thoughts'
+title = 'Final Thoughts 💭'
+order = 2000
+usual_reporters = []
+
+[[projects]]
+emoji = 'Nheko?'
+name = 'nheko'
+title = 'Nheko'
+description = 'Desktop client for Matrix using Qt and C++17.'
+website = 'https://nheko-reborn.github.io'
+default_section = 'clients'
+usual_reporters = ['@deepbluev7:neko.dev']
+
+[[projects]]
+emoji = 'Fractal?'
+name = 'fractal'
+title = 'Fractal'
+description = 'Matrix messaging app for GNOME written in Rust.'
+website = 'https://gitlab.gnome.org/GNOME/fractal'
+default_section = 'clients'
+usual_reporters = [
+    '@afranke:matrix.org',
+    '@jsparber:gnome.org']
+
+[[projects]]
+emoji = 'FluffyChat?'
+name = 'fluffychat'
+title = 'FluffyChat'
+description = ''
+website = 'https://fluffychat.im'
+default_section = 'clients'
+usual_reporters = [
+    '@krille:janian.de',
+    '@Sorunome:matrix.org'
+]
+
+[[projects]]
+emoji = 'Synapse?'
+name = 'synapse'
+title = 'Synapse'
+description = 'Synapse is a Matrix homeserver implementation developed by the matrix.org core team'
+website = 'https://github.com/matrix-org/synapse/'
+default_section = 'servers'
+usual_reporters = [
+    '@erikj:jki.re',
+    '@babolivier:vector.modular.im',
+    '@babolivier:element.io',
+    '@dmrobertson:matrix.org',
+    '@squah:matrix.org',
+    '@shayshay:matrix.org'
+]
+
+[[projects]]
+emoji = 'Hydrogen?'
+name = 'hydrogen'
+title = 'Hydrogen'
+description = 'Hydrogen is a lightweight matrix client with legacy and mobile browser support'
+website = 'https://github.com/vector-im/hydrogen-web'
+default_section = 'clients'
+usual_reporters = ['@bwindels:matrix.org']
+
+[[projects]]
+emoji = 'Heisenbridge?'
+name = 'heisenbridge'
+title = 'Heisenbridge'
+description = 'Heisenbridge is a bouncer-style Matrix IRC bridge.'
+website = 'https://github.com/hifi/heisenbridge/'
+default_section = 'bridges'
+usual_reporters = ['@hifi:vi.fi']
+
+[[projects]]
+emoji = 'GoMatrixHosting?'
+name = 'gomatrixhosting'
+title = 'GoMatrixHosting'
+description = 'GoMatrixHosting deploys Matrix, Element and Jitsti instance as managed services'
+website = 'http://gomatrixhosting.com'
+default_section = 'services'
+usual_reporters = ['@michael:perthchat.org']
+
+[[projects]]
+emoji = 'Cinny?'
+name = 'cinny'
+title = 'Cinny'
+description = 'Cinny is a Matrix client focused on simplicity, elegance and security'
+website = 'https://cinny.in'
+default_section = 'clients'
+usual_reporters = [
+    '@ajbura:matrix.org',
+    '@kfiven:matrix.org'
+]
+
+[[projects]]
+emoji = 'Quaternion?'
+name = 'quaternion'
+title = 'Quaternion'
+description = 'A Qt5-based IM client for Matrix'
+website = 'https://github.com/quotient-im/Quaternion'
+default_section = 'clients'
+usual_reporters = ['@kitsune:matrix.org']
+
+[[projects]]
+emoji = 'libQuotient?'
+name = 'libquotient'
+title = 'libQuotient'
+description = 'A Qt5 library to write cross-platform clients for Matrix'
+website = 'https://github.com/quotient-im/libQuotient'
+default_section = 'sdks'
+usual_reporters = ['@kitsune:matrix.org']
+
+[[projects]]
+emoji = 'Conduit?'
+name = 'conduit'
+title = 'Conduit'
+description = 'Conduit is a simple, fast and reliable chat server powered by Matrix'
+website = 'https://conduit.rs'
+default_section = 'servers'
+usual_reporters = [
+    '@timokoesters:fachschaften.org',
+    '@timo:conduit.rs'
+]
+
+[[projects]]
+emoji = 'Element?'
+name = 'element'
+title = 'Element'
+description = 'Everything related to Element but not strictly bound to a client'
+website = 'https://element.io'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@valere35:matrix.org',
+    '@nadonomy:matrix.org',
+    '@jsalter:matrix.org',
+    '@daniellekirkwood:one.ems.host'
+]
+
+[[projects]]
+emoji = 'Emt Web?'
+name = 'element-web'
+title = 'Element Web/Desktop'
+description = 'Secure and independent communication, connected via Matrix. Come talk with us in [#element-web:matrix.org](https://matrix.to/#/#element-web:matrix.org)!'
+website = 'https://github.com/vector-im/element-web'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@daniellekirkwood:one.ems.host'
+]
+
+[[projects]]
+emoji = 'Emt iOS?'
+name = 'element-ios'
+title = 'Element iOS'
+description = 'Secure and independent communication for iOS, connected via Matrix. Come talk with us in [#element-ios:matrix.org](https://matrix.to/#/#element-ios:matrix.org)!'
+website = 'https://github.com/vector-im/element-ios'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@daniellekirkwood:one.ems.host',
+    '@Manu:matrix.org',
+    '@douge:matrix.org',
+    '@stefan.ceriu:matrix.org'
+]
+
+[[projects]]
+emoji = 'Emt Android?'
+name = 'element-android'
+title = 'Element Android'
+description = 'Secure and independent communication for Android, connected via Matrix. Come talk with us in [#element-android:matrix.org](https://matrix.to/#/#element-android:matrix.org)!'
+website = 'https://github.com/vector-im/element-android'
+default_section = 'clients'
+usual_reporters = [
+    '@thib:ergaster.org',
+    '@kittykat:matrix.org',
+    '@benoit.marty:matrix.org',
+    '@daniellekirkwood:one.ems.host',
+    '@ouchadam:matrix.org'
+]
+
+[[projects]]
+emoji = 'NeoChat?'
+name = 'neochat'
+title = 'Neochat'
+description = 'A client for matrix, the decentralized communication protocol'
+website = 'https://invent.kde.org/network/neochat'
+default_section = 'clients'
+usual_reporters = [
+    '@tobiasfella:kde.org',
+    '@carl:kde.org'
+]
+
+[[projects]]
+emoji = 'Dendrite?'
+name = 'dendrite'
+title = 'Dendrite'
+description = 'Second generation Matrix homeserver'
+website = 'https://github.com/matrix-org/dendrite'
+default_section = 'servers'
+usual_reporters = [
+    '@neilalexander:matrix.org',
+    '@neilalexander:dendrite.matrix.org',
+    '@kegan:matrix.org',
+    '@s7evink:matrix.org'
+]
+
+[[projects]]
+emoji = 'Slack Bridge?'
+name = 'slack-bridge'
+title = 'Slack Bridge'
+description = 'A Matrix <-> Slack bridge'
+website = 'https://github.com/matrix-org/matrix-appservice-slack'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'Helm Chart?'
+name = 'helm-chart'
+title = 'Helm Chart'
+description = 'Matrix Kubernetes applications packaged into helm charts'
+website = 'https://gitlab.com/ananace/charts'
+default_section = 'homeserver-deployment'
+usual_reporters = ['@ace:kittenface.studio']
+
+[[projects]]
+emoji = 'k8s dendrite?'
+name = 'dendrite-helm-chart'
+title = 'Dendrite Helm Chart'
+description ='Helm Chart to deploy Dendrite on Kubernetes'
+website = 'https://github.com/k8s-at-home/charts/tree/master/charts/incubator/dendrite'
+default_section = 'homeserver-deployment'
+usual_reporters = ['@gh-jonnobrow:matrix.org']
+
+[[projects]]
+emoji = 'dendrite-helm?'
+name = 'dendrite-helm'
+title = 'Dendrite Helm'
+description = 'This chart creates a polylith, where every component is in its own deployment and requires a Postgres server aswell as a NATS JetStream server.'
+website = 'https://github.com/S7evinK/dendrite-helm'
+default_section = 'homeserver-deployment'
+usual_reporters = ['@s7evink:dendrite.s3cr3t.me']
+
+[[projects]]
+emoji = 'Pinecone?'
+name = 'pinecone'
+title = 'Pinecone'
+description = 'Peer-to-peer overlay routing for the Matrix ecosystem'
+website = 'https://github.com/matrix-org/pinecone'
+default_section = 'p2p'
+usual_reporters = [
+    '@neilalexander:matrix.org',
+    '@neilalexander:dendrite.matrix.org'
+]
+
+[[projects]]
+emoji = 'Halcyon?'
+name = 'halcyon'
+title = 'Halcyon'
+description = 'Halcyon is an easy to use matrix library inspired by discord.py'
+website = 'https://github.com/WesR/Halcyon'
+default_section = 'sdks'
+usual_reporters = ['@gen3:blackline.xyz']
+
+[[projects]]
+emoji = 'SchildiChat?'
+name = 'schildichat'
+title = 'SchildiChat'
+description = 'SchildiChat is a fork of Element that focuses on UI changes such as message bubbles and a unified chat list for both direct messages and groups, which is a more familiar approach to users of other popular instant messengers.'
+website = 'https://schildi.chat'
+default_section = 'clients'
+usual_reporters = [
+    '@qg:supercable.onl',
+    '@spiritcroc:spiritcroc.de'
+]
+
+[[projects]]
+emoji = 'standupbot?'
+name = 'standupbot'
+title = 'standupbot'
+description = 'Standupbot helps automate the process of writing nicely formatted daily standup posts and sending that standup post to a shared, configurable standup room.'
+website = 'https://sr.ht/~sumner/standupbot/'
+default_section = 'bots'
+usual_reporters = ['@sumner:sumnerevans.com']
+
+[[projects]]
+emoji = 'PTSN Bridge?'
+name = 'ptsn-bridge'
+title = 'PTSN Bridge'
+description = 'A matrix <-> SIP bridge'
+website = 'https://github.com/alangecker/matrix-appservice-pstn'
+default_section = 'bridges'
+usual_reporters = ['@chandi:livingutopia.org']
+
+[[projects]]
+emoji = 'Mother Miounne?'
+name = 'mother-miounne'
+title = 'Mother Miounne'
+description = 'The backoffice of etke.cc service'
+website = 'https://gitlab.com/etke.cc/miounne'
+default_section = 'ops'
+usual_reporters = []
+
+[[projects]]
+emoji = 'etke.cc?'
+name = 'etke'
+title = 'etke.cc'
+description = 'Your matrix server on your conditions'
+website = 'https://etke.cc'
+default_section = 'services'
+usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'Review Bot?'
+name = 'matrix-review-bot'
+title = 'matrix-review-bot'
+description = 'Get your latest AppStore & Playstore review directly in your fav matrix room.'
+website = 'https://github.com/BillCarsonFr/matrix-review-bot'
+default_section = 'bots'
+usual_reporters = ['@valere35:matrix.org']
+
+[[projects]]
+emoji = 'Collabs?'
+name = 'collabs'
+title = 'Collabs'
+description = 'A library to make decentralized collaborative apps'
+website = 'https://www.npmjs.com/package/@collabs/collabs'
+default_section = 'sdks'
+usual_reporters = ['@mweidner:matrix.org']
+
+[[projects]]
+emoji = 'MRSBFH?'
+name = 'mrsbfh'
+title = 'Matrix-Rust-SDK-Bot-Framework-Helper'
+description = 'A toolkit for writing commandbots more efficient in rust for matrix.'
+website = 'https://github.com/MTRNord/mrsbfh'
+default_section = 'sdks'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
+
+[[projects]]
+emoji = 'mautrix-whatsapp?'
+name = 'mautrix-whatsapp'
+title = 'mautrix-whatsapp'
+description = 'A Matrix-WhatsApp puppeting bridge'
+website = 'https://github.com/mautrix/whatsapp'
+default_section = 'bridges'
+usual_reporters = ['@tulir:maunium.net']
+
+[[projects]]
+emoji = 'simplematrixbotlib?'
+name = 'simplematrixbotlib'
+title = 'simplematrixbotlib'
+description = 'simplematrixbotlib is an easy to use bot library for the Matrix ecosystem written in Python and based on matrix-nio.'
+website = 'https://github.com/KrazyKirby99999/simple-matrix-bot-lib'
+default_section = 'sdks'
+usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'time-to-matrix?'
+name = 'time-to-matrix'
+title = 'time-to-matrix'
+description = 'The time command, but it sends the output to a Matrix room'
+website = 'https://gitlab.com/etke.cc/ttm'
+default_section = 'non-chat-clients'
+usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'Mjolnir?'
+name = 'mjolnir'
+title = 'Mjölnir'
+description = 'The moderation bot for Matrix'
+website = 'https://github.com/matrix-org/mjolnir'
+default_section = 'bots'
+usual_reporters = [
+    '@dotyoric:matrix.org',
+    '@gnuxie:matrix.org',
+    '@gnu_ponut:matrix.org'
+]
+
+[[projects]]
+emoji = 'synadm?'
+name = 'synadm'
+title = 'synadm'
+description = 'Command line admin tool for Synapse (Matrix reference homeserver)'
+website = 'https://github.com/JOJ0/synadm'
+default_section = 'ops'
+usual_reporters = ['@jojo:peek-a-boo.at']
+
+[[projects]]
+emoji = 'jOlm?'
+name = 'jolm'
+title = 'jOlm'
+description = 'Olm bindings for Java'
+website = 'https://github.com/brevilo/jolm'
+default_section = 'sdks'
+usual_reporters = ['@brevilo:matrix.org']
+
+[[projects]]
+emoji = 'MinesTRIX?'
+name = 'minestrix'
+title = 'MinesTRIX'
+description = 'A privacy focused social media based on MATRIX'
+website = 'https://minestrix.henri2h.fr'
+default_section = 'projects'
+usual_reporters = ['@henri2h:carnot.cc']
+
+[[projects]]
+emoji = 'hookshot?'
+name = 'matrix-hookshot'
+title = 'matrix-hookshot'
+description = 'A multi purpose multi platform bridge, formerly known as matrix-github'
+website = 'https://github.com/Half-Shot/matrix-hookshot'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'maubot?'
+name = 'maubot'
+title = 'maubot'
+description = 'A plugin-based Matrix bot system.'
+website = 'https://github.com/maubot/maubot'
+default_section = 'bots'
+usual_reporters = ['@tulir:maunium.net']
+
+[[projects]]
+emoji = 'Webhook Receiver?'
+name = 'webhook-receiver'
+title = 'Matrix Webhook Receiver'
+description = 'An add-on for the matrix-appservice-webhooks bridge. Webhooks are essentially web interfaces for applications to "push" data to. The bridge can receive messages in a certain format, which is nice if the notifying app can be configured. Often it cannot.'
+website = 'https://github.com/HarHarLinks/matrix-webhook-receiver'
+default_section = 'bridges'
+usual_reporters = ['@kim:sosnowkadub.de']
+
+[[projects]]
+emoji = 'Trixnity?'
+name = 'trixnity'
+title = 'Trixnity'
+description = 'Multiplatform Kotlin SDK for Matrix'
+website = 'https://gitlab.com/trixnity/trixnity'
+default_section = 'sdks'
+usual_reporters = ['@benedict:imbitbu.de']
+
+[[projects]]
+emoji = 'Sydent?'
+name = 'sydent'
+title = 'Sydent'
+description = 'Sydent is the reference Matrix Identity server. It provides a lookup service, so that you can find a Matrix user via their email address or phone number (if they have chosen to share it).'
+website = 'https://github.com/matrix-org/sydent'
+default_section = 'servers'
+usual_reporters = ['@dmrobertson:matrix.org']
+
+[[projects]]
+emoji = 'Commune?'
+name = 'commune'
+title = 'Commune'
+description = 'Commune is a communications suite built on top of matrix. Commune aims to bring together chat, discussions, email and other interactive apps into a single matrix client.'
+website = 'https://github.com/commune-org/commune'
+default_section = 'clients'
+usual_reporters = [
+  '@erlend_sh:matrix.org',
+  '@ahq:matrix.org']
+
+[[projects]]
+emoji = 'matrix-streamchat?'
+name = 'matrix-streamchat'
+title = 'matrix-streamchat'
+description = 'Matrix powered stream overlay for OBS, to integrate live chat in your favorite (selfhosted) streaming setups.'
+website = 'https://git.pixie.town/f0x/matrix-streamchat'
+default_section = 'non-chat-clients'
+usual_reporters = ['@f0x:pixie.town']
+
+[[projects]]
+emoji = 'highlight?'
+name = 'matrix-highlight'
+title = 'Matrix Highlight'
+description = 'A decentralized and federated way of annotating the web based on Matrix.'
+website = 'https://github.com/DanilaFe/matrix-highlight'
+default_section = 'non-chat-clients'
+usual_reporters = ['@daniel:matrix.danilafe.com']
+
+[[projects]]
+emoji = 'pops-viewr?'
+name = 'populus-viewer'
+title = 'Populus Viewer'
+description = 'A Social Annotation Tool Powered by Matrix'
+website = 'https://github.com/opentower/populus-viewer'
+default_section = 'non-chat-clients'
+usual_reporters = ['@gleachkr:matrix.org']
+
+[[projects]]
+emoji = 'dimension?'
+name = 'dimension'
+title = 'Dimension'
+description = 'An open source integration manager for matrix clients, like Element.'
+website = 'https://github.com/turt2live/matrix-dimension'
+default_section = 'sdks'
+usual_reporters = ['@travis:t2l.io']
+
+[[projects]]
+emoji = 'commit?'
+name = 'matrix-commit'
+title = 'matrix-commit'
+description = 'A Github Action for sending messages to a Matrix Room.'
+website = 'https://github.com/KrazyKirby99999/matrix-commit'
+default_section = 'ops'
+usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'ChatStat?'
+name = 'chatstat'
+title = 'ChatStat'
+description = 'An R package To Gather Stats From Chat Platforms'
+website = 'https://github.com/GregSutcliffe/ChatStat/'
+default_section = 'projects'
+usual_reporters = ['@gwmngilfen:matrix.org']
+
+[[projects]]
+emoji = 'imposterbot?'
+name = 'matrix-imposter-bot'
+title = 'matrix-imposter-bot'
+description = 'A Matrix appservice for relaying messages.'
+website = 'https://github.com/mrjohnson22/matrix-imposter-bot'
+default_section = 'bots'
+usual_reporters = ['@mr_johnson22:matrix.org']
+
+[[projects]]
+emoji = 'vodozemac?'
+name = 'vodozemac'
+title = 'vodozemac'
+description = 'An implementation of Olm and Megolm in pure Rust.'
+website = 'https://github.com/matrix-org/vodozemac'
+default_section = 'sdks'
+usual_reporters = ['@poljar:matrix.org']
+
+[[projects]]
+emoji = 'wrench?'
+name = 'matrix-wrench'
+title = 'Matrix Wrench'
+description = 'Matrix Wrench is a web client to tweak Matrix rooms.'
+website = 'https://gitlab.com/jaller94/matrix-wrench/'
+default_section = 'non-chat-clients'
+usual_reporters = ['@christianp:vector.modular.im']
+
+[[projects]]
+emoji = 'matrix-bot-sdk?'
+name = 'matrix-bot-sdk'
+title = 'matrix-bot-sdk'
+description = 'A TypeScript/JavaScript SDK for Matrix bots'
+website = 'https://github.com/turt2live/matrix-bot-sdk'
+default_section = 'sdks'
+usual_reporters = ['@travis:t2l.io']
+
+[[projects]]
+emoji = 'matrix-media-repo?'
+name = 'matrix-media-repo'
+title = 'matrix-media-repo'
+description = 'Matrix media repository with multi-domain in mind.'
+website = 'https://github.com/turt2live/matrix-media-repo'
+default_section = 'servers'
+usual_reporters = ['@travis:t2l.io']
+
+[[projects]]
+emoji = 'polyjuice?'
+name = 'Polyjuice'
+title = 'Polyjuice'
+description = 'Elixir libraries related to the Matrix communications protocol.'
+website = 'https://gitlab.com/polyjuice'
+default_section = 'sdks'
+usual_reporters = ['@hubert:uhoreg.ca']
+
+[[projects]]
+emoji = 'complement?'
+name = 'complement'
+title = 'Complement'
+description = 'Matrix compliance test suite'
+website = 'https://github.com/matrix-org/complement'
+default_section = 'sdks'
+usual_reporters = ['@kegan:matrix.org']
+
+[[projects]]
+emoji = 'nixos-dept?'
+name = 'nixos-deployment'
+title = 'NixOS Deployment'
+description = 'Matrix packaging for NixOS'
+website = 'https://nixos.org'
+default_section = 'ops'
+usual_reporters = ['@piegames:matrix.org']
+
+[[projects]]
+emoji = 'dckr-ansible-dpy?'
+name = 'matrix-docker-ansible-deploy'
+title = 'matrix-docker-ansible-deploy'
+description = 'Matrix server setup using Ansible and Docker'
+website = 'https://github.com/spantaleev/matrix-docker-ansible-deploy'
+default_section = 'ops'
+usual_reporters = ['@slavi:devture.com']
+
+[[projects]]
+emoji = 'cactus?'
+name = 'cactus'
+title = 'Cactus Comments'
+description = 'Cactus Comments is a federated comment system for the web, based on the Matrix protocol.'
+website = 'https://cactus.chat'
+default_section = 'non-chat-clients'
+usual_reporters = ['@asbjorn:olli.ng']
+
+[[projects]]
+emoji = 'ruby-sdk?'
+name = 'ruby-matrix-sdk'
+title = 'ruby-matrix-sdk'
+description = 'Ruby SDK for the Matrix communication protocol'
+website = 'https://github.com/ananace/ruby-matrix-sdk'
+default_section = 'sdks'
+usual_reporters = ['@ace:kittenface.studio']
+
+[[projects]]
+emoji = 'mx-art?'
+name = 'matrix-art'
+title = 'matrix-art'
+description = 'An image gallery for Matrix'
+website = 'https://github.com/MTRNord/matrix-art'
+default_section = 'projects'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
+
+[[projects]]
+emoji = 'gh-bot?'
+name = 'gh-bot'
+title = 'GH-Bot'
+description = 'The worst (according to its author!) but simplest webhook bot for GitHub and Matrix.'
+website = 'https://github.com/Jaedotmoe/gh-bot'
+default_section = 'bots'
+usual_reporters = ['@me:jae.fi']
+
+[[projects]]
+emoji = 'mx-crdt?'
+name = 'matrix-crdt'
+title = 'matrix-crdt'
+description = 'Use Matrix as a backend for local-first applications with the Matrix-CRDT Yjs provider.'
+website = 'https://github.com/yousefED/matrix-crdt'
+default_section = 'sdks'
+usual_reporters = ['@yousefed:matrix.org']
+
+[[projects]]
+emoji = 'beeper?'
+name = 'beeper'
+title = 'Beeper'
+description = 'All you chats in one app.'
+website = 'https://www.beeper.com'
+default_section = 'clients'
+usual_reporters = ['@brad:beeper.com']
+
+[[projects]]
+emoji = 'circles?'
+name = 'circles'
+title = 'Circles'
+description = 'E2E encrypted social networking built on Matrix. Safe, private sharing for your friends, family, and community.'
+website = 'https://www.kombuchaprivacy.com/circles/'
+default_section = 'non-chat-clients'
+usual_reporters = ['@cvwright:matrix.org']
+
+[[projects]]
+emoji = 'emm?'
+name = 'emm'
+title = 'export matrix messages'
+description = 'A commandline utility to export matrix messages'
+website = 'https://gitlab.com/etke.cc/emm'
+default_section = 'non-chat-clients'
+usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'honoroit?'
+name = 'honoroit'
+title = 'Honoroit'
+description = 'A Matrix helpdesk bot'
+website = 'https://gitlab.com/etke.cc/honoroit'
+default_section = 'bots'
+usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'sailtrix?'
+name = 'sailtrix'
+title = 'Sailtrix'
+description = 'Sailtrix is a matrix client for SailfishOS'
+website = 'https://gitlab.com/HengYeDev/harbour-sailtrix'
+default_section = 'clients'
+usual_reporters = ['@hengyedev:mozilla.org']
+
+[[projects]]
+emoji = 'watch-mx?'
+name = 'watch-mx'
+title = 'Watch The Matrix'
+description = 'A watchOS client for Matrix'
+website = 'https://github.com/pixlwave/Watch-The-Matrix'
+default_section = 'clients'
+usual_reporters = ['@douge:matrix.org']
+
+[[projects]]
+emoji = 'bubo?'
+name = 'bubo'
+title = 'Bubo'
+description = 'Matrix bot to help with community management'
+website = 'https://github.com/elokapina/bubo'
+default_section = 'bots'
+usual_reporters = ['@jaywink:federator.dev']
+
+[[projects]]
+emoji = 'moment?'
+name = 'moment'
+title = 'Moment'
+description = 'A Matrix client; forked from Mirage.'
+website = 'https://mx-moment.xyz'
+default_section = 'clients'
+usual_reporters = ['@maze:mazie.rocks']
+
+[[projects]]
+emoji = 'corporal?'
+name = 'matrix-corporal'
+title = 'Matrix Corporal'
+description = 'reconciliator and gateway for a managed Matrix server'
+website = 'https://github.com/devture/matrix-corporal'
+default_section = 'ops'
+usual_reporters = ['@slavi:devture.com']
+
+[[projects]]
+emoji = 'nheko-krunner?'
+name = 'nheko-krunner'
+title = 'nheko-krunner'
+description = 'A KRunner plugin to list joined rooms and possibly other things from nheko.'
+website = 'https://github.com/LorenDB/nheko-krunner'
+default_section = 'non-chat-clients'
+usual_reporters = ['@lorendb:matrix.org']
+
+[[projects]]
+emoji = 'matrix-wordle?'
+name = 'matrix-wordle'
+title = 'matrix-wordle'
+description = 'An implementation of the popular Wordle game for the Matrix Protocol.'
+website = 'https://github.com/KrazyKirby99999/matrix-wordle'
+default_section = 'bots'
+usual_reporters = ['@krazykirby99999:matrix.org']
+
+[[projects]]
+emoji = 'mnir-widget?'
+name = 'mnir-widget'
+title = 'Mjolnir Widget'
+description = 'A widget for moderating with mjolnir. Highly WIP. Use at your own risk!'
+website = 'https://github.com/MTRNord/matrix-moderation-widget'
+default_section = 'widgets'
+usual_reporters = ['@mtrnord:nordgedanken.dev']
+
+[[projects]]
+emoji = 'mtxclient?'
+name = 'mtxclient'
+title = 'mtxclient'
+description = 'Client API library for Matrix, built on top of libcurl'
+website = 'https://github.com/Nheko-Reborn/mtxclient'
+default_section = 'sdks'
+usual_reporters = ['@deepbluev7:neko.dev']
+
+[[projects]]
+emoji = 'commty-mgr?'
+name = 'matrix-community-manager'
+title = 'Matrix Community Manager'
+description = 'The highly configurable message aggregation and filtering bot for matrix!'
+website = 'https://gitlab.com/Sleuth56/Matrix-Community-Manager/'
+default_section = 'bots'
+usual_reporters = ['@sloth56:chat.mountainview.theworkpc.com', '@sleuth:rexrobotics.org']
+
+[[projects]]
+emoji = 'kakaotalk bridge?'
+name = 'matrix-appservice-kakaotalk'
+title = 'matrix-appservice-kakaotalk'
+description = 'A Matrix-KakaoTalk puppeting bridge.'
+website = 'https://src.miscworks.net/fair/matrix-appservice-kakaotalk/'
+default_section = 'bridges'
+usual_reporters = ['@fair:miscworks.net']
+
+[[projects]]
+emoji = 'Ruma?'
+name = 'ruma'
+title = 'Ruma'
+description = 'A set of Rust library crates for working with the Matrix protocol. Ruma’s approach to Matrix emphasizes correctness, security, stability and performance.'
+website = 'https://www.ruma.io'
+default_section = 'sdks'
+usual_reporters = ['@jplatte:flipdot.org']
+
+[[projects]]
+emoji = 'Synatainer?'
+name = 'synatainer'
+title = 'Synatainer'
+description = 'Synapse Maintenance Container – Docker container with tools for synapse & postgres database maintenance'
+website = 'https://gitlab.com/mb-saces/synatainer'
+default_section = 'ops'
+usual_reporters = ['@saces:c-base.org']
+
+[[projects]]
+emoji = 'Emt Call?'
+name = 'element-call'
+title = 'Element Call'
+description = 'Native Decentralised End-to-end Encrypted Group Calls in Matrix, as a standalone web app'
+website = 'https://call.element.io'
+default_section = 'voip'
+usual_reporters = ['@dave:matrix.org']
+
+[[projects]]
+emoji = 'AS IRC?'
+name = 'matrix-appservice-irc'
+title = 'matrix-appservice-irc'
+description = 'Node.js IRC bridge for Matrix'
+website = 'https://github.com/matrix-org/matrix-appservice-irc'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'SmallTalk?'
+name = 'smalltalk'
+title = 'SmallTalk'
+description = 'Minimal Android messenger powered by Matrix'
+website = 'https://github.com/ouchadam/small-talk'
+default_section = 'clients'
+usual_reporters = ['@ouchadam:matrix.org']
+
+[[projects]]
+emoji = 'gatho?'
+name = 'gatho'
+title = 'Gatho'
+description = 'Invite friends to your event with a one-click RSVP link - no matter which chat/social app they use!'
+website = 'https://gatho.party'
+default_section = 'non-chat-clients'
+usual_reporters = ['@jake:matrix.gatho.party']
+
+[[projects]]
+emoji = 'rust-sdk?'
+name = 'matrix-rust-sdk'
+title = 'matrix-rust-sdk'
+description = 'Next-gen crypto-included SDK for developing Clients, Bots and Appservices; written in Rust with bindings for Node, Swift and WASM'
+website = 'https://github.com/matrix-org/matrix-rust-sdk'
+default_section = 'sdks'
+usual_reporters = [
+    '@jplatte:flipdot.org',
+    '@gnunicorn:matrix.org'
+]
+
+[[projects]]
+emoji = '3rd room?'
+name = 'thirdroom'
+title = 'Thirdroom'
+description = 'A browser-based open metaverse client'
+website = 'https://github.com/matrix-org/thirdroom'
+default_section = 'non-chat-clients'
+usual_reporters = ['@arobertlong:matrix.org']
+
+[[projects]]
+emoji = 'syphon?'
+name = 'syphon'
+title = 'Syphon'
+description = 'Chat with your privacy and freedom intact'
+website = 'https://syphon.org'
+default_section = 'clients'
+usual_reporters = [
+    '@0x1a8510f2:0x1a8510f2.space',
+    '@ereio:matrix.org',
+    '@ed:geraghty.london',
+    '@dnisbetjones:mozilla.org'
+]
+
+[[projects]]
+emoji = 'Ement.el?'
+name = 'ement.el'
+title = 'Ement.el'
+description = 'Matrix client for Emacs'
+website = 'https://github.com/alphapapa/ement.el'
+default_section = 'clients'
+usual_reporters = ['@alphapapa:matrix.org']
+
+[[projects]]
+emoji = 'dart-sdk?'
+name = 'matrix-dart-sdk'
+title = 'Matrix Dart SDK'
+description = 'Matrix SDK written in pure Dart.'
+website = 'https://gitlab.com/famedly/company/frontend/famedlysdk'
+default_section = 'sdks'
+usual_reporters = ['@henri_carnot:famedly.de']
+
+[[projects]]
+emoji = 'opsdroid?'
+name = 'opsdroid'
+title = 'Opsdroid'
+description = 'An open source chat-ops bot framework'
+website = 'https://github.com/opsdroid/opsdroid'
+default_section = 'bots'
+usual_reporters = ['@cadair:cadair.com']
+
+[[projects]]
+emoji = 'Buscarron?'
+name = 'buscarron'
+title = 'Buscarron'
+description = 'Web forms (HTTP POST) to matrix'
+website = 'https://gitlab.com/etke.cc/buscarron'
+default_section = 'ops'
+usual_reporters = ['@aine:etke.cc']
+
+[[projects]]
+emoji = 'thunderbird?'
+name = 'thunderbird'
+title = 'Thunderbird'
+description = 'Thunderbird is a free open-source email, calendar & chat app.'
+website = 'https://www.thunderbird.net'
+default_section = 'clients'
+usual_reporters = ['@freaktechnik:humanoids.be']
+
+[[projects]]
+emoji = 'graim?'
+name = 'graim'
+title = 'graim'
+description = 'A bot to moderate communities bridged with Discord via matrix-appservice-discord'
+website = 'https://github.com/luphoria/graim'
+default_section = 'bots'
+usual_reporters = ['@trent:gra.im']
+
+[[projects]]
+emoji = 'AS Discord?'
+name = 'matrix-appservice-discord'
+title = 'matrix-appservice-discord'
+description = 'A bridge between Matrix and Discord.'
+website = 'https://github.com/matrix-org/matrix-appservice-discord'
+default_section = 'bridges'
+usual_reporters = ['@Half-Shot:half-shot.uk']
+
+[[projects]]
+emoji = 'chatterbox?'
+name = 'chatterbox'
+title = 'Chatterbox'
+description = 'Chatterbox lets you securely embed Hydrogen on any website!'
+website = 'https://github.com/vector-im/chatterbox'
+default_section = 'clients'
+usual_reporters = ['@rxl881:vector.modular.im']
+
+[[projects]]
+emoji = 'quadrix?'
+name = 'quadrix'
+title = 'Quadrix'
+description = 'A Minimal, simple, multi-platform chat client for the Matrix protocol.'
+website = 'https://github.com/alariej/quadrix'
+default_section = 'clients'
+usual_reporters = ['@alariej:matrix.org']
+
+[[projects]]
+emoji = 'mx-room-emt?'
+name = 'matrix-room-element'
+title = 'matrix-room-element'
+description = 'A custom html element, web component, to display the latest messages from a matrix room'
+website = 'https://gitlab.com/sctlib/matrix-room-element'
+default_section = 'sdks'
+usual_reporters = ['@ugp:matrix.org']
+
+[[projects]]
+emoji = 'releasetracker?'
+name = 'matrix-releasetracker'
+title = 'Matrix Release Tracker'
+description = 'A release tracker that posts updates into Matrix rooms'
+website = 'https://github.com/ananace/matrix-releasetracker'
+default_section = 'bots'
+usual_reporters = ['@ace:kittenface.studio']
+
+[[projects]]
+emoji = 'effektio?'
+name = 'effektio'
+title = 'Effektio'
+description = 'The one mobile-first, decentralized community organizing app'
+website = 'https://effektio.org'
+default_section = 'non-chat-clients'
+usual_reporters = ['@gnunicorn:matrix.org']
+
+[[projects]]
+emoji = 'postmoogle?'
+name = 'postmoogle'
+title = 'Postmoogle'
+description = 'An Email to Matrix bridge. 1 room = 1 mailbox.'
+website = 'https://gitlab.com/etke.cc/postmoogle'
+default_section = 'bridges'
+usual_reporters = ['@aine:etke.cc']
+
