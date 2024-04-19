@@ -1252,3 +1252,12 @@ usual_reporters = [
     '@benoit.marty:matrix.org',
     '@daniellekirkwood:one.ems.host'
 ]
+
+[[projects]]
+emoji = 'Elm SDK'
+name = 'elm-matrix-sdk'
+title = 'Elm SDK'
+description = 'A more consistent alternative to the matrix-js-sdk, written in Elm.'
+website = 'https://github.com/noordstar/elm-matrix-sdk'
+default_section = 'sdks'
+usual_reporters = [ '@bram:matrix.directory', '@bram:noordstar.me' ]
