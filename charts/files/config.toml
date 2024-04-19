@@ -1087,9 +1087,9 @@ emoji = 'dart-sdk'
 name = 'matrix-dart-sdk'
 title = 'Matrix Dart SDK'
 description = 'Matrix SDK written in pure Dart.'
-website = 'https://gitlab.com/famedly/company/frontend/famedlysdk'
+website = 'https://github.com/famedly/matrix-dart-sdk'
 default_section = 'sdks'
-usual_reporters = ['@henri_carnot:famedly.de']
+usual_reporters = ['@henri_carnot:famedly.de', '@td:technodisaster.com']
 
 [[projects]]
 emoji = 'opsdroid'
