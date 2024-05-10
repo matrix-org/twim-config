@@ -11,6 +11,7 @@ ack_text = "✅ Thanks for the report {{user}}, I'll store your update!"
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@thib:ergaster.org',
+    '@thibaultmartin:matrix.org',
     '@andrewm:element.io',
     '@hubert:uhoreg.ca',
     '@mtrnord:midnightthoughts.space',
@@ -212,6 +213,13 @@ name = 'room-of-the-week'
 title = 'Room of the Week 📆'
 order = 1280
 usual_reporters = ['@timokoesters:fachschaften.org']
+
+[[sections]]
+emoji = '📊'
+name = 'stats'
+title = 'Matrix Federation Stats'
+order = 1900
+usual_reporters = ['@aine:etke.cc']
 
 [[sections]]
 emoji = '💭'
