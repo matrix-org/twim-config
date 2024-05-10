@@ -7,13 +7,13 @@ author: {{author}}
 image: 
 ---
 
-## Matrix Live ?
+## Matrix Live
 
-\{\{youtube_playe(video_id="")\}\}
+\{\{youtube_player(video_id="")\}\}
 
 {{sections}}
 
-## Dept of Ping ?
+## Dept of Ping
 
 Here we reveal, rank, and applaud the homeservers with the lowest ping, as measured by [pingbot](https://github.com/maubot/echo), a [maubot](https://github.com/maubot/maubot) that you can host on your own server.
 
@@ -25,6 +25,6 @@ Join [#ping:maunium.net](https://matrix.to/#/#ping:maunium.net) to experience th
 Join [#ping-no-synapse:maunium.net](https://matrix.to/#/#ping-no-synapse:maunium.net) to experience the fun live, and to find out how to add YOUR server to the game.
 
 
-## That's all I know ?
+## That's all I know
 
 See you next week, and be sure to stop by [#twim:matrix.org](https://matrix.to/#/#twim:matrix.org) with your updates!
