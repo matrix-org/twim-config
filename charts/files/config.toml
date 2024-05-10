@@ -33,6 +33,13 @@ order = 1010
 usual_reporters = []
 
 [[sections]]
+emoji = '🗳️'
+name = 'elections'
+title = 'Dept of elections 🗳️'
+order = 1005
+usual_reporters = []
+
+[[sections]]
 emoji = '🙆'
 name = 'social'
 title = 'Dept of Social Good 🙆'
