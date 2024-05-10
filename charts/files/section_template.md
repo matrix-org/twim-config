@@ -3,4 +3,3 @@
 {{section.news}}
 
 {{section.projects}}
-
