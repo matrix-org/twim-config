@@ -1276,3 +1276,15 @@ description = 'A more consistent alternative to the matrix-js-sdk, written in El
 website = 'https://github.com/noordstar/elm-matrix-sdk'
 default_section = 'sdks'
 usual_reporters = [ '@bram:matrix.directory', '@bram:noordstar.me' ]
+
+[[projects]]
+emoji = 'conduwuit'
+name = 'conduwuit'
+title = 'conduwuit'
+description = 'conduwuit is a very cool, featureful, well-maintained fork of Conduit'
+website = 'https://conduwuit.puppyirl.gay'
+default_section = 'servers'
+usual_reporters = [
+    '@strawberry:puppygock.gay',
+    '@june:girlboss.ceo'
+]
