@@ -260,7 +260,7 @@ usual_reporters = [
 emoji = 'FluffyChat'
 name = 'fluffychat'
 title = 'FluffyChat'
-description = ''
+description = 'The cutest instant messenger in the [matrix].'
 website = 'https://fluffychat.im'
 default_section = 'clients'
 usual_reporters = [
@@ -1188,13 +1188,13 @@ default_section = 'bots'
 usual_reporters = ['@ace:kittenface.studio']
 
 [[projects]]
-emoji = 'effektio'
-name = 'effektio'
-title = 'Effektio'
-description = 'The one mobile-first, decentralized community organizing app'
-website = 'https://effektio.org'
-default_section = 'non-chat-clients'
-usual_reporters = ['@gnunicorn:matrix.org']
+emoji = 'acter'
+name = 'acter'
+title = 'Acter'
+description = 'Your social organizing app build on matrix: A secure space to gather, engage and grow your community!'
+website = 'https://acter.global/'
+default_section = 'build'
+usual_reporters = ['@ben:acter.global']
 
 [[projects]]
 emoji = 'postmoogle'
@@ -1287,4 +1287,34 @@ default_section = 'servers'
 usual_reporters = [
     '@strawberry:puppygock.gay',
     '@june:girlboss.ceo'
+]
+
+[[projects]]
+emoji = 'kazv'
+name = 'kazv'
+title = 'Kazv'
+description = 'kazv is a convergent matrix client and instant messaging app.'
+website = 'https://kazv.chat/'
+default_section = 'clients'
+usual_reporters = ['@nannanko:tusooa.xyz']
+
+[[projects]]
+emoji = 'libkazv'
+name = 'libkazv'
+title = 'Libkazv'
+description = 'libkazv is a matrix client sdk built upon lager and the value-oriented design it enables.'
+website = 'https://iron.lily-is.land/diffusion/L/'
+default_section = 'sdks'
+usual_reporters = ['@nannanko:tusooa.xyz']
+
+[[projects]]
+emoji = 'Rory&::LibMatrix'
+name = 'rory-libmatrix'
+title = 'Rory&::LibMatrix'
+description = '.NET 8 matrix bot/client library/SDK'
+website = 'https://cgit.rory.gay/matrix/LibMatrix.git/'
+default_section = 'sdks'
+usual_reporters = [
+    '@emma:rory.gay',
+    '@emma:conduit.rory.gay'
 ]
