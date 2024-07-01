@@ -271,7 +271,7 @@ usual_reporters = [
 emoji = 'Synapse'
 name = 'synapse'
 title = 'Synapse'
-description = 'Synapse is a Matrix homeserver implementation developed by the Element'
+description = 'Synapse is a Matrix homeserver implementation developed by Element'
 website = 'https://github.com/element-hq/synapse/'
 default_section = 'servers'
 usual_reporters = [
@@ -661,7 +661,7 @@ emoji = 'Trixnity Messenger'
 name = 'trixnity-messenger'
 title = 'Trixnity Messenger'
 description = 'Multiplatform Kotlin SDK for developing messengers on top of Trixnity'
-website = 'https://gitlab.com/connect2x/trixnity-messenger'
+website = 'https://gitlab.com/connect2x/trixnity-messenger/trixnity-messenger'
 default_section = 'sdks'
 usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
 
