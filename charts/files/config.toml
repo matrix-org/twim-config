@@ -1318,3 +1318,12 @@ usual_reporters = [
     '@emma:rory.gay',
     '@emma:conduit.rory.gay'
 ]
+
+[[projects]]
+emoji = 'commet'
+name = 'commet'
+title = 'Commet'
+description = 'Commet is a client for mobile and desktop with a modern UI and fun features!'
+website = 'https://commet.chat'
+default_section = 'clients'
+usual_reporters = ['@airyz:matrix.org']
