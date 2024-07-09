@@ -28,3 +28,5 @@ Join [#ping-no-synapse:maunium.net](https://matrix.to/#/#ping-no-synapse:maunium
 ## That's all I know
 
 See you next week, and be sure to stop by [#twim:matrix.org](https://matrix.to/#/#twim:matrix.org) with your updates!
+
+To learn more about how to prepare an entry for TWIM check out [the TWIM guide](https://matrix.org/twim-guide).
