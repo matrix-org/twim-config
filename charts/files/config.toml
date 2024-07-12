@@ -1292,7 +1292,7 @@ usual_reporters = [
 [[projects]]
 emoji = 'kazv'
 name = 'kazv'
-title = 'Kazv'
+title = 'kazv'
 description = 'kazv is a convergent matrix client and instant messaging app.'
 website = 'https://kazv.chat/'
 default_section = 'clients'
@@ -1301,7 +1301,7 @@ usual_reporters = ['@nannanko:tusooa.xyz']
 [[projects]]
 emoji = 'libkazv'
 name = 'libkazv'
-title = 'Libkazv'
+title = 'libkazv'
 description = 'libkazv is a matrix client sdk built upon lager and the value-oriented design it enables.'
 website = 'https://iron.lily-is.land/diffusion/L/'
 default_section = 'sdks'
