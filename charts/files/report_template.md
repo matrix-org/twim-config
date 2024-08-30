@@ -1,15 +1,17 @@
----
-date: '{{today}}'
-title: 'This Week in Matrix {{today}}'
-categories:
-  - This Week in Matrix
-author: {{author}}
-image: 
----
++++
+date = "{{today}}"
+title = "This Week in Matrix {{today}}"
+path = "/blog/YYYY/MM/DD/this-week-in-matrix-YYYY-MM-DD"
+
+[taxonomies]
+author = ["{{author}}"]
+category = ["This Week in Matrix"]
++++
+
 
 ## Matrix Live
 
-\{\{youtube_player(video_id="")\}\}
+youtube_player(video_id="")
 
 {{sections}}
 
