@@ -601,7 +601,7 @@ description = 'Command line admin tool for Synapse (Matrix reference homeserver)
 website = 'https://github.com/JOJ0/synadm'
 default_section = 'ops'
 usual_reporters = [
-    '@jojo:peek-a-boo.at'
+    '@jojo:peek-a-boo.at',
     '@jacksonchen666:jacksonchen666.com'
 ]
 
