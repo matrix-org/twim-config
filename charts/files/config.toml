@@ -669,6 +669,15 @@ default_section = 'sdks'
 usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
 
 [[projects]]
+emoji = 'Tammy'
+name = 'Tammy'
+title = 'Tammy'
+description = 'Multiplatform messengers build on top of Trixnity Messenger'
+website = 'https://tammy.connect2x.de'
+default_section = 'clients'
+usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
+
+[[projects]]
 emoji = 'Sydent'
 name = 'sydent'
 title = 'Sydent'
