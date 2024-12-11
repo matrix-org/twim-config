@@ -260,7 +260,7 @@ usual_reporters = [
 emoji = 'FluffyChat'
 name = 'fluffychat'
 title = 'FluffyChat'
-description = ''
+description = 'The cutest instant messenger in the [matrix].'
 website = 'https://fluffychat.im'
 default_section = 'clients'
 usual_reporters = [
@@ -271,7 +271,7 @@ usual_reporters = [
 emoji = 'Synapse'
 name = 'synapse'
 title = 'Synapse'
-description = 'Synapse is a Matrix homeserver implementation developed by the Element'
+description = 'Synapse is a Matrix homeserver implementation developed by Element'
 website = 'https://github.com/element-hq/synapse/'
 default_section = 'servers'
 usual_reporters = [
@@ -597,10 +597,13 @@ usual_reporters = [
 emoji = 'synadm'
 name = 'synadm'
 title = 'synadm'
-description = 'Command line admin tool for Synapse (Matrix reference homeserver)'
+description = 'Command line admin tool for Synapse (Matrix homeserver)'
 website = 'https://github.com/JOJ0/synadm'
 default_section = 'ops'
-usual_reporters = ['@jojo:peek-a-boo.at']
+usual_reporters = [
+    '@jojo:peek-a-boo.at',
+    '@jacksonchen666:jacksonchen666.com'
+]
 
 [[projects]]
 emoji = 'jOlm'
@@ -661,8 +664,17 @@ emoji = 'Trixnity Messenger'
 name = 'trixnity-messenger'
 title = 'Trixnity Messenger'
 description = 'Multiplatform Kotlin SDK for developing messengers on top of Trixnity'
-website = 'https://gitlab.com/connect2x/trixnity-messenger'
+website = 'https://gitlab.com/connect2x/trixnity-messenger/trixnity-messenger'
 default_section = 'sdks'
+usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
+
+[[projects]]
+emoji = 'Tammy'
+name = 'Tammy'
+title = 'Tammy'
+description = 'Multiplatform messengers build on top of Trixnity Messenger'
+website = 'https://tammy.connect2x.de'
+default_section = 'clients'
 usual_reporters = ['@michael:imbitbu.de','@benedict:imbitbu.de']
 
 [[projects]]
@@ -1188,13 +1200,13 @@ default_section = 'bots'
 usual_reporters = ['@ace:kittenface.studio']
 
 [[projects]]
-emoji = 'effektio'
-name = 'effektio'
-title = 'Effektio'
-description = 'The one mobile-first, decentralized community organizing app'
-website = 'https://effektio.org'
-default_section = 'non-chat-clients'
-usual_reporters = ['@gnunicorn:matrix.org']
+emoji = 'acter'
+name = 'acter'
+title = 'Acter'
+description = 'Your social organizing app build on matrix: A secure space to gather, engage and grow your community!'
+website = 'https://acter.global/'
+default_section = 'build'
+usual_reporters = ['@ben:acter.global']
 
 [[projects]]
 emoji = 'postmoogle'
@@ -1259,7 +1271,7 @@ usual_reporters = [
 emoji = 'Emt X Android'
 name = 'element-x-android'
 title = 'Element X Android'
-description = 'Android Matrix messenger application using the Matrix Rust Sdk and Jetpack Compose '
+description = 'Android Matrix messenger application using the Matrix Rust SDK and Jetpack Compose.'
 website = 'https://github.com/vector-im/element-x-android'
 default_section = 'clients'
 usual_reporters = [
@@ -1288,3 +1300,42 @@ usual_reporters = [
     '@strawberry:puppygock.gay',
     '@june:girlboss.ceo'
 ]
+
+[[projects]]
+emoji = 'kazv'
+name = 'kazv'
+title = 'kazv'
+description = 'kazv is a convergent matrix client and instant messaging app.'
+website = 'https://kazv.chat/'
+default_section = 'clients'
+usual_reporters = ['@nannanko:tusooa.xyz']
+
+[[projects]]
+emoji = 'libkazv'
+name = 'libkazv'
+title = 'libkazv'
+description = 'libkazv is a matrix client sdk built upon lager and the value-oriented design it enables.'
+website = 'https://iron.lily-is.land/diffusion/L/'
+default_section = 'sdks'
+usual_reporters = ['@nannanko:tusooa.xyz']
+
+[[projects]]
+emoji = 'Rory&::LibMatrix'
+name = 'rory-libmatrix'
+title = 'Rory&::LibMatrix'
+description = '.NET 8 matrix bot/client library/SDK'
+website = 'https://cgit.rory.gay/matrix/LibMatrix.git/'
+default_section = 'sdks'
+usual_reporters = [
+    '@emma:rory.gay',
+    '@emma:conduit.rory.gay'
+]
+
+[[projects]]
+emoji = 'commet'
+name = 'commet'
+title = 'Commet'
+description = 'Commet is a client for mobile and desktop with a modern UI and fun features!'
+website = 'https://commet.chat'
+default_section = 'clients'
+usual_reporters = ['@airyz:matrix.org']
