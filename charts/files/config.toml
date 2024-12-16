@@ -776,7 +776,7 @@ title = 'Matrix Wrench'
 description = 'Matrix Wrench is a web client to tweak Matrix rooms.'
 website = 'https://gitlab.com/jaller94/matrix-wrench/'
 default_section = 'non-chat-clients'
-usual_reporters = ['@christianp:vector.modular.im']
+usual_reporters = ['@jaller94:matrix.org']
 
 [[projects]]
 emoji = 'matrix-bot-sdk'
@@ -1339,3 +1339,29 @@ description = 'Commet is a client for mobile and desktop with a modern UI and fu
 website = 'https://commet.chat'
 default_section = 'clients'
 usual_reporters = ['@airyz:matrix.org']
+
+[[projects]]
+emoji = 'NeoBoard'
+name = 'neoboard'
+title = 'NeoBoard'
+description = 'Private and secure whiteboard for everyone'
+website = 'https://github.com/nordeck/matrix-neoboard'
+default_section = 'widgets'
+usual_reporters = [
+    '@miltonmoura:matrix.org',
+    '@michael.weimann:nordeck.io',
+    '@kim.brose:nordeck.io'
+]
+
+[[projects]]
+emoji = 'matrix-widget-toolkit'
+name = 'matrix-widget-toolkit'
+title = 'Matrix Widget Toolkit'
+description = 'Reusable framework for creating Matrix widgets.'
+website = 'https://github.com/nordeck/matrix-widget-toolkit'
+default_section = 'widgets'
+usual_reporters = [
+    '@kim.brose:nordeck.io',
+    '@michael.weimann:nordeck.io',
+    '@miltonmoura:matrix.org',
+]
