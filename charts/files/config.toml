@@ -776,7 +776,7 @@ title = 'Matrix Wrench'
 description = 'Matrix Wrench is a web client to tweak Matrix rooms.'
 website = 'https://gitlab.com/jaller94/matrix-wrench/'
 default_section = 'non-chat-clients'
-usual_reporters = ['@christianp:vector.modular.im']
+usual_reporters = ['@jaller94:matrix.org']
 
 [[projects]]
 emoji = 'matrix-bot-sdk'
