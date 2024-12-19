@@ -594,6 +594,15 @@ usual_reporters = [
 ]
 
 [[projects]]
+emoji = 'Draupnir'
+name = 'draupnir'
+title = 'Draupnir'
+description = 'A moderation bot for open Matrix communities'
+website = 'https://github.com/the-draupnir-project/Draupnir'
+default_section = 'bots'
+usual_reporters = ['@gnu_ponut:matrix.org']
+
+[[projects]]
 emoji = 'synadm'
 name = 'synadm'
 title = 'synadm'
