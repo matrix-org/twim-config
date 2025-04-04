@@ -607,7 +607,7 @@ emoji = 'synadm'
 name = 'synadm'
 title = 'synadm'
 description = 'Command line admin tool for Synapse (Matrix homeserver)'
-website = 'https://github.com/JOJ0/synadm'
+website = 'https://codeberg.org/synadm/synadm'
 default_section = 'ops'
 usual_reporters = [
     '@jojo:peek-a-boo.at',
