@@ -1,7 +1,7 @@
 +++
 date = "{{today}}"
 title = "This Week in Matrix {{today}}"
-path = "/blog/YYYY/MM/DD/this-week-in-matrix-YYYY-MM-DD"
+path = "/blog/YYYY/MM/DD/this-week-in-matrix-{{today}}"
 
 [taxonomies]
 author = ["{{author}}"]
