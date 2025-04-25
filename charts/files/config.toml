@@ -1387,3 +1387,15 @@ usual_reporters = [
     '@gwmngilfen:matrix.org',
     '@joshsimmons:matrix.org',
 ]
+
+[[projects]]
+emoji = 'continuwuity'
+name = 'continuwuity'
+title = 'continuwuity'
+description = 'Continuwuity is a community-driven Matrix homeserver in Rust'
+website = 'https://continuwuity.org/'
+default_section = 'servers'
+usual_reporters = [
+    '@nex:continuwuity.org',
+    '@nex:nexy7574.co.uk'
+]
