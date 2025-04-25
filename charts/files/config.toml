@@ -1358,8 +1358,7 @@ website = 'https://github.com/nordeck/matrix-neoboard'
 default_section = 'widgets'
 usual_reporters = [
     '@kim.brose:nordeck.io',
-    '@michael.weimann:nordeck.io',
-    '@miltonmoura:matrix.org'
+    '@milton.moura:nordeck.io'
 ]
 
 [[projects]]
@@ -1371,8 +1370,7 @@ website = 'https://github.com/nordeck/matrix-widget-toolkit'
 default_section = 'widgets'
 usual_reporters = [
     '@kim.brose:nordeck.io',
-    '@michael.weimann:nordeck.io',
-    '@miltonmoura:matrix.org',
+    '@milton.moura:nordeck.io',
 ]
 
 [[projects]]
@@ -1385,5 +1383,5 @@ default_section = 'status'
 usual_reporters = [
     '@kim:sosnowkadub.de',
     '@gwmngilfen:matrix.org',
-    '@joshsimmons:matrix.org',
+    '@robinriley:matrix.org',
 ]
