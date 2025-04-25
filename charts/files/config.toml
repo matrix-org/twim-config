@@ -10,12 +10,12 @@ min_length = 30
 ack_text = "✅ Thanks for the report {{user}}, I'll store your update!"
 update_config_command = "sh /data/update_config.sh"
 editors = [
-    '@thib:ergaster.org',
     '@thibaultmartin:matrix.org',
     '@andrewm:element.io',
     '@hubert:uhoreg.ca',
     '@mtrnord:midnightthoughts.space',
-    '@josh:josh.tel'
+    '@robinriley:matrix.org',
+    '@kim:sosnowkadub.de'
 ]
 
 [[sections]]
