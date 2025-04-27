@@ -5,10 +5,5 @@ metadata:
 data:
   config.toml: |-
     {{- $.Files.Get "files/config.toml" | nindent 4 }}
-  project_template.md: |-
-    {{- $.Files.Get "files/project_template.md" | nindent 4 }}
-  report_template.md: |-
-    {{- $.Files.Get "files/report_template.md" | nindent 4 }}
-  section_template.md: |-
-    {{- $.Files.Get "files/section_template.md" | nindent 4 }}
-
+  template.md: |-
+    {{- $.Files.Get "files/template.md" | nindent 4 }}
