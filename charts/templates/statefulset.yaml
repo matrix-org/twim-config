@@ -45,12 +45,8 @@ spec:
           env:
             - name: CONFIG_PATH
               value: /config/config.toml
-            - name: REPORT_TEMPLATE_PATH
-              value: /config/report_template.md
-            - name: SECTION_TEMPLATE_PATH
-              value: /config/section_template.md
-            - name: PROJECT_TEMPLATE_PATH
-              value: /config/project_template.md
+            - name: TEMPLATE_PATH
+              value: /config/template.md
             - name: STORE_PATH
               value: /data/store.json
           {{- with .Values.env }}
