@@ -1380,7 +1380,7 @@ emoji = 'GovBoard'
 name = 'GovBoard'
 title = 'Governing Board'
 description = 'The Governing Board is an advisory board that is made up of elected representatives from all across the Matrix ecosystem.'
-website = 'https://matrix.org/foundation/governing-board-elections/'
+website = 'https://matrix.org/foundation/governing-board/'
 default_section = 'status'
 usual_reporters = [
     '@kim:sosnowkadub.de',
