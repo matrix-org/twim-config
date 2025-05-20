@@ -71,3 +71,16 @@ Not anymore! The editor (and most of the time the bot itself) will sort your new
 * Dept of Welcomes 👐
 * Room of the Week 📆
 * Final Thoughts 💭
+
+## Contributing
+
+We deploy this project via kubernetes using Helm. The repo is thus organised around the Helm chart.
+
+The bot-specific config is under /charts/files.
+It consists of:
+
+1. The config file in TOML format. Add an entry by building on the examples of the existing file.
+   We use [taplo](https://taplo.tamasfe.dev/cli/usage/formatting.html) as TOML linter and formatter.
+   Run `typlo fmt` to apply it, or the CI *will* complain.
+2. The template in Markdown format with specific placeholders supported by hebbot.
+   See the [Hebbot](https://github.com/haecker-felix/hebbot) docs for more info.
