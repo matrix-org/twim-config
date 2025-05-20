@@ -1399,3 +1399,15 @@ usual_reporters = [
     '@nex:continuwuity.org',
     '@nex:nexy7574.co.uk'
 ]
+
+[[projects]]
+emoji = 'MAS'
+name = 'MAS'
+title = 'Matrix Authentication Service'
+description = 'Matrix Authentication Service (MAS) is an OAuth 2.0 and OpenID Provider server developed by Element.'
+website = 'https://github.com/element-hq/matrix-authentication-service'
+default_section = 'servers'
+usual_reporters = [
+    '@andrewm:element.io',
+    '@quenting:element.io'
+]
