@@ -81,6 +81,6 @@ It consists of:
 
 1. The config file in TOML format. Add an entry by building on the examples of the existing file.
    We use [taplo](https://taplo.tamasfe.dev/cli/usage/formatting.html) as TOML linter and formatter.
-   Run `typlo fmt` to apply it, or the CI *will* complain.
+   Run `taplo fmt` to apply it, or the CI *will* complain.
 2. The template in Markdown format with specific placeholders supported by hebbot.
    See the [Hebbot](https://github.com/haecker-felix/hebbot) docs for more info.
