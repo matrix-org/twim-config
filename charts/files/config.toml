@@ -1043,10 +1043,15 @@ usual_reporters = ['@saces:c-base.org']
 emoji = 'Emt Call'
 name = 'element-call'
 title = 'Element Call'
-description = 'Native Decentralised End-to-end Encrypted Group Calls in Matrix, as a standalone web app'
+description = 'Native Decentralised End-to-end Encrypted Group Calls in Matrix.'
 website = 'https://call.element.io'
 default_section = 'voip'
-usual_reporters = ['@dave:matrix.org']
+usual_reporters = [
+  '@dave:matrix.org',
+  '@fheese:element.io',
+  '@robin:robin.town',
+  '@toger5:matrix.org',
+]
 
 [[projects]]
 emoji = 'AS IRC'
