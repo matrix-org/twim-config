@@ -596,7 +596,7 @@ description = 'A toolkit for writing commandbots more efficient in rust for matr
 website = 'https://github.com/MTRNord/mrsbfh'
 default_section = 'sdks'
 usual_reporters = [
-  '@mtrnord:nordgedanken.dev',
+  '@mtrnord:midnightthoughts.space',
 ]
 
 [[projects]]
@@ -973,7 +973,7 @@ description = 'An image gallery for Matrix'
 website = 'https://github.com/MTRNord/matrix-art'
 default_section = 'projects'
 usual_reporters = [
-  '@mtrnord:nordgedanken.dev',
+  '@mtrnord:midnightthoughts.space',
 ]
 
 [[projects]]
@@ -1128,7 +1128,7 @@ description = 'A widget for moderating with mjolnir. Highly WIP. Use at your own
 website = 'https://github.com/MTRNord/matrix-moderation-widget'
 default_section = 'widgets'
 usual_reporters = [
-  '@mtrnord:nordgedanken.dev',
+  '@mtrnord:midnightthoughts.space',
 ]
 
 [[projects]]
