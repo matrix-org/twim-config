@@ -1599,8 +1599,8 @@ description = 'Continuwuity is a community-driven Matrix homeserver in Rust'
 website = 'https://continuwuity.org/'
 default_section = 'servers'
 usual_reporters = [
-    '@nex:continuwuity.org',
-    '@nex:nexy7574.co.uk'
+  '@nex:continuwuity.org',
+  '@nex:nexy7574.co.uk',
 ]
 
 [[projects]]
@@ -1611,6 +1611,6 @@ description = 'Matrix Authentication Service (MAS) is an OAuth 2.0 and OpenID Pr
 website = 'https://github.com/element-hq/matrix-authentication-service'
 default_section = 'servers'
 usual_reporters = [
-    '@andrewm:element.io',
-    '@quenting:element.io'
+  '@andrewm:element.io',
+  '@quenting:element.io',
 ]
