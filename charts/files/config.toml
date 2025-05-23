@@ -1238,11 +1238,11 @@ usual_reporters = [
 emoji = 'rust-sdk'
 name = 'matrix-rust-sdk'
 title = 'matrix-rust-sdk'
-description = 'Next-gen crypto-included SDK for developing Clients, Bots and Appservices; written in Rust with bindings for Node, Swift and WASM'
+description = 'Your all-in-one toolkit for creating Matrix clients with Rust, from simple bots to full-featured apps, with bindings to Swift, Kotlin, WebAssembly, Go and more'
 website = 'https://github.com/matrix-org/matrix-rust-sdk'
 default_section = 'sdks'
 usual_reporters = [
-  '@benjib:element.io',
+  '@mnt_io:matrix.org',
 ]
 
 [[projects]]
