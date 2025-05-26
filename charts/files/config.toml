@@ -617,7 +617,7 @@ emoji = 'time-to-matrix'
 name = 'time-to-matrix'
 title = 'time-to-matrix'
 description = 'The time command, but it sends the output to a Matrix room'
-website = 'https://github.com/etke.cc/ttm'
+website = 'https://github.com/etkecc/ttm'
 default_section = 'non-chat-clients'
 usual_reporters = [
   '@aine:etke.cc',
@@ -1016,7 +1016,7 @@ emoji = 'emm'
 name = 'emm'
 title = 'export matrix messages'
 description = 'A commandline utility to export matrix messages'
-website = 'https://github.com/etke.cc/emm'
+website = 'https://github.com/etkecc/emm'
 default_section = 'non-chat-clients'
 usual_reporters = [
   '@aine:etke.cc',
@@ -1027,7 +1027,7 @@ emoji = 'honoroit'
 name = 'honoroit'
 title = 'Honoroit'
 description = 'A Matrix helpdesk bot'
-website = 'https://github.com/etke.cc/honoroit'
+website = 'https://github.com/etkecc/honoroit'
 default_section = 'bots'
 usual_reporters = [
   '@aine:etke.cc',
@@ -1300,7 +1300,7 @@ emoji = 'Buscarron'
 name = 'buscarron'
 title = 'Buscarron'
 description = 'Web forms (HTTP POST) to matrix'
-website = 'https://github.com/etke.cc/buscarron'
+website = 'https://github.com/etkecc/buscarron'
 default_section = 'ops'
 usual_reporters = [
   '@aine:etke.cc',
@@ -1399,7 +1399,7 @@ emoji = 'postmoogle'
 name = 'postmoogle'
 title = 'Postmoogle'
 description = 'An Email to Matrix bridge. 1 room = 1 mailbox.'
-website = 'https://github.com/etke.cc/postmoogle'
+website = 'https://github.com/etkecc/postmoogle'
 default_section = 'bridges'
 usual_reporters = [
   '@aine:etke.cc',
