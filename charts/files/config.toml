@@ -1614,3 +1614,14 @@ usual_reporters = [
   '@andrewm:element.io',
   '@quenting:element.io',
 ]
+
+[[projects]]
+emoji = 'MRS'
+name = 'MRS'
+title = 'Matrix Rooms Search'
+description = 'A fully-featured, standalone, matrix rooms search service, available both in web and natively in Matrix.'
+website = 'https://github.com/etkecc/mrs'
+default_section = 'projects'
+usual_reporters = [
+  '@aine:etke.cc',
+]
