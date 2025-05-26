@@ -547,15 +547,6 @@ usual_reporters = [
 ]
 
 [[projects]]
-emoji = 'Mother Miounne'
-name = 'mother-miounne'
-title = 'Mother Miounne'
-description = 'The backoffice of etke.cc service'
-website = 'https://gitlab.com/etke.cc/miounne'
-default_section = 'ops'
-usual_reporters = []
-
-[[projects]]
 emoji = 'etke.cc'
 name = 'etke'
 title = 'etke.cc'
