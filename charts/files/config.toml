@@ -58,6 +58,16 @@ usual_reporters = [
 ]
 
 [[sections]]
+emoji = '⚖️'
+name = 'tns'
+title = 'Dept of Trust & Safety ⚖️'
+order = 1035
+usual_reporters = [
+  '@travis:t2l.io',
+  '@mackesque:matrix.org',
+]
+
+[[sections]]
 emoji = '🎓️'
 name = 'gsoc'
 title = 'Dept of Science 🎓️'
