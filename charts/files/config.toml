@@ -60,7 +60,7 @@ usual_reporters = [
 [[sections]]
 emoji = '🎓️'
 name = 'gsoc'
-title = 'Dept of GSoC 🎓️'
+title = 'Dept of Science 🎓️'
 order = 1040
 usual_reporters = []
 
