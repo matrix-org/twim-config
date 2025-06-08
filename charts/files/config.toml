@@ -259,7 +259,7 @@ emoji = 'Fractal'
 name = 'fractal'
 title = 'Fractal'
 description = 'Matrix messaging app for GNOME written in Rust.'
-website = 'https://gitlab.gnome.org/GNOME/fractal'
+website = 'https://gitlab.gnome.org/World/fractal'
 default_section = 'clients'
 usual_reporters = [
   '@afranke:matrix.org',
