@@ -288,6 +288,18 @@ usual_reporters = [
 ]
 
 [[projects]]
+emoji = '< polycule >'
+name = 'polycule'
+title = '< polycule >'
+description = '< polycule > is a geeky and efficient [matrix] client for power users.'
+website = 'https://polycule.im'
+default_section = 'clients'
+usual_reporters = [
+  '@braid:alsace.hair',
+  '@braid:polycule.im',
+]
+
+[[projects]]
 emoji = 'Synapse'
 name = 'synapse'
 title = 'Synapse'
