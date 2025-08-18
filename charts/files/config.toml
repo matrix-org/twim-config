@@ -660,7 +660,7 @@ name = 'draupnir'
 title = 'Draupnir'
 description = 'A moderation bot for open Matrix communities'
 website = 'https://github.com/the-draupnir-project/Draupnir'
-default_section = 'bots'
+default_section = 'tns'
 usual_reporters = [
   '@gnu_ponut:matrix.org',
 ]
