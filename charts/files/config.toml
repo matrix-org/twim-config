@@ -1638,3 +1638,14 @@ default_section = 'projects'
 usual_reporters = [
   '@aine:etke.cc',
 ]
+
+[[projects]]
+emoji = 'gomuks'
+name = 'gomuks'
+title = 'gomuks'
+description = 'A Matrix client written in Go.'
+website = 'https://github.com/gomuks/gomuks'
+default_section = 'clients'
+usual_reporters = [
+  '@tulir:maunium.net',
+]
