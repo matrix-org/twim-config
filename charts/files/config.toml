@@ -1513,6 +1513,33 @@ website = 'https://github.com/nordeck/matrix-neoboard'
 default_section = 'widgets'
 usual_reporters = [
   '@kim.brose:nordeck.io',
+  '@mikhail.aheichyk:nordeck.io',
+  '@milton.moura:nordeck.io',
+]
+
+[[projects]]
+emoji = 'NeoChoice'
+name = 'neochoice'
+title = 'NeoChoice'
+description = 'Conduct advanced polls in your Matrix room.'
+website = 'https://github.com/nordeck/matrix-poll'
+default_section = 'widgets'
+usual_reporters = [
+  '@kim.brose:nordeck.io',
+  '@mikhail.aheichyk:nordeck.io',
+  '@milton.moura:nordeck.io',
+]
+
+[[projects]]
+emoji = 'NeoDateFix'
+name = 'neodatefix'
+title = 'NeoDateFix'
+description = 'Organize meetings in Matrix chat rooms and video conferences - straight from your Matrix client.'
+website = 'https://github.com/nordeck/matrix-meetings'
+default_section = 'widgets'
+usual_reporters = [
+  '@kim.brose:nordeck.io',
+  '@mikhail.aheichyk:nordeck.io',
   '@milton.moura:nordeck.io',
 ]
 
@@ -1525,6 +1552,7 @@ website = 'https://github.com/nordeck/matrix-widget-toolkit'
 default_section = 'widgets'
 usual_reporters = [
   '@kim.brose:nordeck.io',
+  '@mikhail.aheichyk:nordeck.io',
   '@milton.moura:nordeck.io',
 ]
 
