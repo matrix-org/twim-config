@@ -1134,10 +1134,11 @@ emoji = 'Ruma'
 name = 'ruma'
 title = 'Ruma'
 description = 'A set of Rust library crates for working with the Matrix protocol. Ruma’s approach to Matrix emphasizes correctness, security, stability and performance.'
-website = 'https://www.ruma.io'
+website = 'https://ruma.dev'
 default_section = 'sdks'
 usual_reporters = [
   '@jplatte:flipdot.org',
+  '@zecakeh:tedomum.net',
 ]
 
 [[projects]]
