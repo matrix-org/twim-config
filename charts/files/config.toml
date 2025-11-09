@@ -381,10 +381,10 @@ usual_reporters = [
 ]
 
 [[projects]]
-emoji = 'Element'
+emoji = 'Emt Client'
 name = 'element'
 title = 'Element'
-description = 'Everything related to Element but not strictly bound to a client.'
+description = 'News about Element clients across platform boundaries.'
 website = 'https://element.io'
 default_section = 'clients'
 usual_reporters = [
