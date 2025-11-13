@@ -4,73 +4,7 @@ This repository contains the configuration used by [Hebbot](https://github.com/h
 
 This Week in Matrix is a blog post published weekly, and generated from the reports of the Matrix community in [#twim:matrix.org](https://matrix.to/#/#twim:matrix.org). If you work on a Matrix project and want to give your progress some visibility, join the room and drop us a message about it!
 
-## What is TWIM-worthy?
-
-This Week in Matrix doesn't have a formal process to define whether a project fits in or not. We use the following rules as a guide, but eventually it's left to the editor to approve or not the news report:
-
-* If you are reporting **news about a project**, the project itself must either be about Matrix (i.e. a Matrix client, server, bot, or SDK) or using Matrix (e.g. [TheBoard, a whiteboard powered by Matrix](https://github.com/toger5/TheBoard)).
-* If you are promoting **an article** you wrote, it doesn't need to be primarily about Matrix, but Matrix shouldn't be anecdotic either.
-* If you are reporting **news about a conference** using Matrix, put the emphasis on how you will be using Matrix for your conference. We're excited to see more and more organisations using Matrix for their online conferences! TWIM must not become a billboard for every conference :)
-
-In any case, you are still very welcome to [join #twim:matrix.org](https://matrix.to/#/#twim:matrix.org) and ask if the news is worth reporting!
-
-## How can I report news about my project?
-
-You have made progress on a project, and you feel like it's TWIM-worthy? You want it to appear in the next issue of [This Week in Matrix](https://matrix.org/twim)? It's very simple!
-
-### Reporting news
-
-1. Join [#twim:matrix.org](https://matrix.to/#/#twim:matrix.org) with your favourite Matrix client
-2. Mention `TWIM`, followed by your actual news report. Don't worry about leading line breaks, the bot will be able to strip them!
-3. The TWIM bot will answer with `✅ Thanks for the report <your display name>, I'll store your update!`
-
-The bot didn't answer? You might have forgotten to mention `TWIM`. That's not a problem! React to your own message with ⭕️ and the bot will pick the submission.
-
-And that's it! Your news report has been stored, an editor has been notified, and your update is very likely to make it to the next issue of TWIM!
-
-### Going the extra mile
-
-You might notice that the TWIM bot sometimes reacts to some reports with text or emoji reactions. This is because of how the bot works. The bot generates all the boilerplate, including the project title, description and a link to the project website.
-
-To know which project the news report refers to (so it can add the proper title, description and link), the bot expects the editor to send a reaction to that report. Those can be emoji, but that doesn't scale really well. But those can also be actual text reactions!
-
-When someone reports a news, the bot looks up in its configuration. If the person reporting the news is identified as a usual reporter of one or several projects, the bot reacts with the projects names so the editor only has to click on the correct one to confirm which project this news is related to.
-
-If you want the TWIM bot to be aware of your project, feel free to [open an issue](https://github.com/matrix-org/twim-config/issues/new?assignees=&labels=&template=add_project.yml&title=%5BProject%5D+) or a pull request to get your project added to [Hebbot's configuration](https://github.com/matrix-org/twim-config/blob/master/config.toml)!
-
-### Do I need to add an emoji to add it to a section?
-
-Not anymore! The editor (and most of the time the bot itself) will sort your news report in the correct section. Those sections are defined in the [config.toml](https://github.com/matrix-org/twim-config/blob/master/config.toml) file and are the following:
-
-* Dept of *Status of Matrix* 🌡️
-* Dept of Social Good 🙆
-* Dept of Spec 📜
-* Dept of GSoC 🎓️
-* Dept of P2P 👥
-* Dept of Servers 🏢
-* Homeserver Deployment 📥️
-* Dept of Bridges 🌉
-* Dept of Clients 📱
-* Dept of VoIP 🤙
-* Dept of Encryption 🔐
-* Dept of SDKs and Frameworks 🧰
-* Dept of Ops 🛠
-* Dept of Services 🚀
-* Dept of Blockchain 🤷
-* Dept of Internet of Things 💡
-* Dept of Bots 🤖
-* Dept of Event Videos 📹
-* Dept of Events and Talks 🗣️
-* Dept of Interesting Projects 🛰️
-* Dept of *Built on Matrix* 🏗️
-* Dept of Guides 🧭
-* Dept of Hackathons 🍕
-* Dept of Jobs 💰️
-* Matrix in the News 📰
-* New Public Rooms 🏟️
-* Dept of Welcomes 👐
-* Room of the Week 📆
-* Final Thoughts 💭
+The TWIM process and more information about it is maintained in form of the <https://matrix.org/twim-guide/>.
 
 ## Contributing
 
@@ -84,3 +18,57 @@ It consists of:
    Run `taplo fmt` to apply it, or the CI *will* complain.
 2. The template in Markdown format with specific placeholders supported by hebbot.
    See the [Hebbot](https://github.com/haecker-felix/hebbot) docs for more info.
+
+### Sign off
+
+We ask that everybody who contributes to this project signs off their contributions, as explained below.
+
+We follow a simple 'inbound=outbound' model for contributions: the act of submitting an 'inbound' contribution means that the contributor agrees to license their contribution under the same terms as the project's overall 'outbound' license - in our case, this is Apache Software License v2 (see [LICENSE-Apache-2.0](./LICENSE-Apache-2.0)) for code and Creative Commons Attribution-ShareAlike 4.0 International (see [LICENSE-CC-BY-SA](./LICENSE-CC-BY-SA)) for other things, including text and graphics.
+
+In order to have a concrete record that your contribution is intentional and you agree to license it under the same terms as the project's license, we've adopted the same lightweight approach used by the [Linux Kernel](https://www.kernel.org/doc/html/latest/process/submitting-patches.html), [Docker](https://github.com/docker/docker/blob/master/CONTRIBUTING.md), and many other projects: the [Developer Certificate of Origin](https://developercertificate.org/) (DCO). This is a simple declaration that you wrote the contribution or otherwise have the right to contribute it to Matrix:
+
+```
+Developer Certificate of Origin
+Version 1.1
+
+Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+660 York Street, Suite 102,
+San Francisco, CA 94110 USA
+
+Everyone is permitted to copy and distribute verbatim copies of this
+license document, but changing it is not allowed.
+
+Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+(a) The contribution was created in whole or in part by me and I
+    have the right to submit it under the open source license
+    indicated in the file; or
+
+(b) The contribution is based upon previous work that, to the best
+    of my knowledge, is covered under an appropriate open source
+    license and I have the right under that license to submit that
+    work with modifications, whether created in whole or in part
+    by me, under the same open source license (unless I am
+    permitted to submit under a different license), as indicated
+    in the file; or
+
+(c) The contribution was provided directly to me by some other
+    person who certified (a), (b) or (c) and I have not modified
+    it.
+
+(d) I understand and agree that this project and the contribution
+    are public and that a record of the contribution (including all
+    personal information I submit with it, including my sign-off) is
+    maintained indefinitely and may be redistributed consistent with
+    this project or the open source license(s) involved.
+```
+
+If you agree to this for your contribution, then all that's needed is to include the line in your commit or pull request comment:
+
+```
+Signed-off-by: Your Name <your@email.example.org>
+```
+
+Git allows you to add this signoff automatically when using the `-s` flag to `git commit`, which uses the name and email set in your `user.name` and `user.email` git configs.
