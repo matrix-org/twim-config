@@ -1614,3 +1614,14 @@ default_section = 'clients'
 usual_reporters = [
   '@tulir:maunium.net',
 ]
+
+[[projects]]
+emoji = 'ESS'
+name = 'ESS'
+title = 'Element Server Suite'
+description = 'Element Server Suite (ESS) is a backend hosting solution for Matrix-based communications that supports self-hosted and fully managed deployments.'
+website = 'https://element.io/server-suite'
+default_section = 'homeserver-deployment'
+usual_reporters = [
+  '@ben:banzan.uk',
+]
