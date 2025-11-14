@@ -1624,4 +1624,6 @@ website = 'https://element.io/server-suite'
 default_section = 'homeserver-deployment'
 usual_reporters = [
   '@ben:banzan.uk',
+  '@gaelg:element.io',
+  '@pmaier:element.io',
 ]
