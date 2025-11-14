@@ -1486,12 +1486,11 @@ usual_reporters = [
 emoji = 'Rory&::LibMatrix'
 name = 'rory-libmatrix'
 title = 'Rory&::LibMatrix'
-description = '.NET 9 Matrix bot/client library/SDK.'
+description = '.NET 10 Matrix bot/client library/SDK.'
 website = 'https://cgit.rory.gay/matrix/LibMatrix.git/'
 default_section = 'sdks'
 usual_reporters = [
   '@emma:rory.gay',
-  '@emma:conduit.rory.gay',
 ]
 
 [[projects]]
