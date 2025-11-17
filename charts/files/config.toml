@@ -1,5 +1,5 @@
 bot_user_id = '@this-week-in:matrix.org'
-reporting_room_id = '!GNPBRmjZKKEGszhMtB:matrix.org'
+reporting_room_id = '!vzDE5GnhIhncy8gpyeK4WFPVyeWvIh8JYeM3iqR8RV8'
 admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
 notice_emoji = '⭕️'
 restrict_notice = true
