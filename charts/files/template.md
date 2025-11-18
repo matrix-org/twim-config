@@ -10,7 +10,7 @@ category = ["This Week in Matrix"]
 
 ## Matrix Live
 
-{{youtube_player(video_id="")}}
+{% raw %}{{youtube_player(video_id="")}}{% endraw %}
 
 {%- macro news(news_items) -%}
   {%- for item in news_items %}
