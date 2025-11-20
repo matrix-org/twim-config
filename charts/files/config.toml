@@ -14,7 +14,6 @@ editors = [
   '@andrewm:element.io',
   '@hubert:uhoreg.ca',
   '@mtrnord:mtrnord.blog',
-  '@robinriley:matrix.org',
   '@kim:sosnowkadub.de',
 ]
 
@@ -26,6 +25,13 @@ order = 1000
 usual_reporters = []
 
 [[sections]]
+emoji = '🗳️'
+name = 'elections'
+title = 'Dept of elections 🗳️'
+order = 1005
+usual_reporters = []
+
+[[sections]]
 emoji = '🌡️'
 name = 'status'
 title = 'Dept of *Status of Matrix* 🌡️'
@@ -33,10 +39,10 @@ order = 1010
 usual_reporters = []
 
 [[sections]]
-emoji = '🗳️'
-name = 'elections'
-title = 'Dept of elections 🗳️'
-order = 1005
+emoji = '💪'
+name = 'wgs'
+title = 'Dept of Working Groups 💪'
+order = 1015
 usual_reporters = []
 
 [[sections]]
@@ -1566,7 +1572,7 @@ default_section = 'status'
 usual_reporters = [
   '@kim:sosnowkadub.de',
   '@gwmngilfen:matrix.org',
-  '@robinriley:matrix.org',
+  '@Amandine:matrix.org',
 ]
 
 [[projects]]
