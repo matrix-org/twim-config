@@ -273,7 +273,7 @@ website = 'https://gitlab.gnome.org/World/fractal'
 default_section = 'clients'
 usual_reporters = [
   '@afranke:matrix.org',
-  '@zecakeh:tedomum.net',
+  '@zecakeh:private.coffee',
 ]
 
 [[projects]]
@@ -1138,7 +1138,7 @@ website = 'https://ruma.dev'
 default_section = 'sdks'
 usual_reporters = [
   '@jplatte:flipdot.org',
-  '@zecakeh:tedomum.net',
+  '@zecakeh:private.coffee',
 ]
 
 [[projects]]
