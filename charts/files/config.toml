@@ -1644,3 +1644,14 @@ default_section = 'servers'
 usual_reporters = [
   '@jason:tuwunel.me',
 ]
+
+[[projects]]
+emoji = 'mx-connectivity'
+name = 'mx-connectivity'
+title = 'Matrix Connectivity Tester'
+description = 'A web interface to debug and troubleshoot Matrix connectivity issues.'
+website = 'https://connectivity-tester.mtrnord.blog'
+default_section = 'ops'
+usual_reporters = [
+  '@mtrnord:mtrnord.blog',
+]
