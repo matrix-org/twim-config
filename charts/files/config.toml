@@ -43,7 +43,12 @@ emoji = '🗣️'
 name = 'talks'
 title = 'Dept of Events and Talks 🗣️'
 order = 1012
-usual_reporters = []
+usual_reporters = [
+  '@kim:sosnowkadub.de',
+  '@thibaultmartin:matrix.org',
+  '@braid:alsace.hair',
+  '@yan:datanauten.de',
+]
 
 [[sections]]
 emoji = '💪'
