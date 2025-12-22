@@ -39,6 +39,18 @@ order = 1010
 usual_reporters = []
 
 [[sections]]
+emoji = '🗣️'
+name = 'talks'
+title = 'Dept of Events and Talks 🗣️'
+order = 1012
+usual_reporters = [
+  '@kim:sosnowkadub.de',
+  '@thibaultmartin:matrix.org',
+  '@braid:alsace.hair',
+  '@yan:datanauten.de',
+]
+
+[[sections]]
 emoji = '💪'
 name = 'wgs'
 title = 'Dept of Working Groups 💪'
@@ -183,13 +195,6 @@ emoji = '📹'
 name = 'eventvideos'
 title = 'Dept of Videos 📹'
 order = 1190
-usual_reporters = []
-
-[[sections]]
-emoji = '🗣️'
-name = 'talks'
-title = 'Dept of Events and Talks 🗣️'
-order = 1200
 usual_reporters = []
 
 [[sections]]
