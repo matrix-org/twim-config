@@ -1660,3 +1660,14 @@ default_section = 'ops'
 usual_reporters = [
   '@mtrnord:mtrnord.blog',
 ]
+
+[[projects]]
+emoji = 'policyserv'
+name = 'policyserv'
+title = 'policyserv'
+description = 'A proactive safety and moderation tool for Matrix communities.'
+website = 'https://github.com/matrix-org/policyserv'
+default_section = 'tns'
+usual_reporters = [
+  '@travis:t2l.io',
+]
