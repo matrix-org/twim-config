@@ -265,6 +265,17 @@ order = 2000
 usual_reporters = []
 
 [[projects]]
+emoji = 'Nexus'
+name = 'nexus'
+title = 'Nexus'
+description = 'Matrix client made with Flutter and a Gomuks backend.'
+website = 'https://git.federated.nexus/Henry-Hiles/nexus'
+default_section = 'clients'
+usual_reporters = [
+  '@quadradical:federated.nexus',
+]
+
+[[projects]]
 emoji = 'Nheko'
 name = 'nheko'
 title = 'Nheko'
