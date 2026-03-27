@@ -251,7 +251,7 @@ usual_reporters = [
 [[sections]]
 emoji = '📊'
 name = 'stats'
-title = 'Matrix Federation Stats'
+title = 'Matrix Federation Stats 📊'
 order = 1900
 usual_reporters = [
   '@aine:etke.cc',
