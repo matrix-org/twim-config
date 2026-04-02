@@ -6,7 +6,7 @@ restrict_notice = true
 image_markdown = '> ![](/blog/img/{{file}})'
 video_markdown = '> {{< video src="{{file}}" >}}'
 verbs = ["reports", "says", "announces"]
-min_length = 30
+min_length = 100
 ack_text = "✅ Thanks for the report {{user}}, I'll store your update!"
 update_config_command = "sh /data/update_config.sh"
 editors = [
