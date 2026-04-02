@@ -1684,10 +1684,10 @@ usual_reporters = [
 ]
 
 [[projects]]
-emoji = '🌐'
+emoji = 'decntrl-wg'
 name = 'wg-homeserver-decentralization'
 title = 'Homeserver Decentralization Working Group'
-description = 'The Homeserver Decentralization Working Group aims to promote decentralization of the Matrix network and help new users to find a homeserver other than matrix.org. Specifically it tries to foster a smoother onboarding experience (to homeservers and clients) on homeservers other than matrix.org and might propose additional measures in the ecosystem as a whole.'
+description = 'The Homeserver Decentralization Working Group aims to promote decentralization of the Matrix network by fostering a smoother onboarding experience (to homeservers and clients) on homeservers other than matrix.org, and might propose additional measures in the ecosystem as a whole.'
 website = 'https://github.com/cleverer/matrix-wg-promote-alternative-homeservers'
 default_section = 'wgs'
 usual_reporters = [
