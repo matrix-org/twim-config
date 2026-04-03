@@ -1682,3 +1682,16 @@ default_section = 'tns'
 usual_reporters = [
   '@travis:t2l.io',
 ]
+
+[[projects]]
+emoji = 'decntrl-wg'
+name = 'wg-homeserver-decentralization'
+title = 'Homeserver Decentralization Community Group'
+description = 'The Homeserver Decentralization Community Group aims to promote decentralization of the Matrix network by fostering a smoother onboarding experience (to homeservers and clients) on homeservers other than matrix.org, and might propose additional measures in the ecosystem as a whole. It is not an official Matrix Foundation Working Group, but aims to become one.'
+website = 'https://github.com/cleverer/matrix-wg-promote-alternative-homeservers'
+default_section = 'wgs'
+usual_reporters = [
+  '@nicolas:damutten.ch',
+  '@clement:hampai.ch',
+  '@mcnesium:exma.de',
+]
