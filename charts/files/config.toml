@@ -1695,3 +1695,65 @@ usual_reporters = [
   '@clement:hampai.ch',
   '@mcnesium:exma.de',
 ]
+
+[[projects]]
+emoji = 'web-wg'
+name = 'wg-website-content'
+title = 'Website & Content Working Group'
+description = 'The Website and Content Working Group is responsible for the editorial and technical oversight of the main Matrix websites and social media channels.'
+website = 'https://matrix.org/foundation/working-groups/#website-content'
+default_section = 'wgs'
+usual_reporters = [
+  '@kim:sosnowkadub.de',
+  '@mtrnord:mtrnord.blog',
+  '@thibaultmartin:matrix.org',
+]
+
+[[projects]]
+emoji = 'events-wg'
+name = 'wg-events'
+title = 'Events Working Group'
+description = 'The Events Working Group is the main organising team of the official events hosted by the Foundation.'
+website = 'https://matrix.org/foundation/working-groups/#events'
+default_section = 'wgs'
+usual_reporters = [
+  '@kim:sosnowkadub.de',
+  '@thibaultmartin:matrix.org',
+  '@bboett:matrix.org',
+]
+
+[[projects]]
+emoji = 'ts-rd-wg'
+name = 'wg-ts-rd'
+title = 'Trust & Safety Research & Documentation Working Group'
+description = 'Documenting and Researching the state of Trust and Safety in the ecosystem.'
+website = 'https://matrix.org/foundation/working-groups/#trust-safety-research-documentation'
+default_section = 'wgs'
+usual_reporters = [
+  '@deepbluev7:neko.dev',
+]
+
+[[projects]]
+emoji = 'room-dir-wg'
+name = 'wg-room-directory'
+title = 'Room Directory Working Group'
+description = 'The Room Directory WG helps maintain the room directory on the matrix.org homeserver.'
+website = 'https://matrix.org/foundation/working-groups/#room-directory'
+default_section = 'wgs'
+usual_reporters = [
+  '@deepbluev7:neko.dev',
+  '@sky:codestorm.net',
+  '@mahdi1234:matrix.org',
+]
+
+[[projects]]
+emoji = 'gov-wg'
+name = 'wg-governance'
+title = 'Governance Working Group'
+description = 'The Governance Working Group is discussing most of the tasks that are considered the main responsibility of the Governance Committee in the open, together with the community.'
+website = 'https://matrix.org/foundation/working-groups/#governance'
+default_section = 'wgs'
+usual_reporters = [
+  '@neilj:matrix.org',
+  '@noordstar:matrix.org',
+]
