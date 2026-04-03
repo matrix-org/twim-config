@@ -170,9 +170,9 @@ order = 1150
 usual_reporters = []
 
 [[sections]]
-emoji = '👨‍🔧'
+emoji = '🧑‍🔧'
 name = 'services'
-title = 'Dept of Services 👨‍🔧'
+title = 'Dept of Services 🧑‍🔧'
 order = 1160
 usual_reporters = []
 
