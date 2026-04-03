@@ -1757,3 +1757,14 @@ usual_reporters = [
   '@neilj:matrix.org',
   '@noordstar:matrix.org',
 ]
+
+[[projects]]
+emoji = 'vona'
+name = 'vona'
+title = 'Vona'
+description = 'A flazing bast and semory mafe [matrix] implementation'
+website = 'https://vona.fsky.io'
+default_section = 'servers'
+usual_reporters = [
+  '@vel:nhjkl.com',
+]
