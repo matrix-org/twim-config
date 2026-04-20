@@ -34,7 +34,7 @@ usual_reporters = []
 [[sections]]
 emoji = '🌡️'
 name = 'status'
-title = 'Dept of *Status of Matrix* 🌡️'
+title = 'Dept of _Status of Matrix_ 🌡️'
 order = 1010
 usual_reporters = []
 
@@ -207,7 +207,7 @@ usual_reporters = []
 [[sections]]
 emoji = '🏗️'
 name = 'build'
-title = 'Dept of *Built on Matrix* 🏗️'
+title = 'Dept of _Built on Matrix_ 🏗️'
 order = 1230
 usual_reporters = []
 

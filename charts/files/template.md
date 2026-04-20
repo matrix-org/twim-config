@@ -48,10 +48,14 @@ category = ["This Week in Matrix"]
   {{- news(entry.news) }}
 
   {%- endfor %} {#- projects #}
+
+{%- if loop.first %}
+<!-- more -->
+{%- endif %}
  
 {%- endfor %} {#- sections #}
 
-## Dept of Ping
+## Dept of Ping 🏓
 
 Here we reveal, rank, and applaud the homeservers with the lowest ping, as measured by [pingbot](https://github.com/maubot/echo), a [maubot](https://github.com/maubot/maubot) that you can host on your own server.
 
