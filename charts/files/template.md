@@ -51,13 +51,15 @@ category = ["This Week in Matrix"]
  
 {%- endfor %} {#- sections #}
 
-## Dept of Ping
+## Dept of Ping 🏓
 
 Here we reveal, rank, and applaud the homeservers with the lowest ping, as measured by [pingbot](https://github.com/maubot/echo), a [maubot](https://github.com/maubot/maubot) that you can host on your own server.
 
-### [#ping:maunium.net](https://matrix.to/#/#ping:maunium.net)
-
 Join [#ping:maunium.net](https://matrix.to/#/#ping:maunium.net) to experience the fun live, and to find out how to add YOUR server to the game.
+
+|Rank|Hostname|Median MS|
+|:---:|:---:|:---:|
+{{ping_table}}
 
 ## That's all I know
 

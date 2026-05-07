@@ -1,6 +1,7 @@
 bot_user_id = '@this-week-in:matrix.org'
 reporting_room_id = '!vzDE5GnhIhncy8gpyeK4WFPVyeWvIh8JYeM3iqR8RV8'
 admin_room_id = '!yHqAuTnFgksYvVnlMY:ergaster.org'
+ping_room_id = '!ping12Z19lU3TzHS4slLsUNPx-I7MZKyneYRUlO7voU'
 notice_emoji = '⭕️'
 restrict_notice = true
 image_markdown = '> ![](/blog/img/{{file}})'
