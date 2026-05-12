@@ -28,7 +28,7 @@ usual_reporters = []
 [[sections]]
 emoji = '🗳️'
 name = 'elections'
-title = 'Dept of elections 🗳️'
+title = 'Dept of Elections 🗳️'
 order = 1005
 usual_reporters = []
 
