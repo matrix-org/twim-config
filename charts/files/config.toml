@@ -1660,6 +1660,9 @@ website = 'https://github.com/matrix-construct/tuwunel'
 default_section = 'servers'
 usual_reporters = [
   '@jason:tuwunel.me',
+  '@june:woof.gay',
+  '@june:girlboss.ceo',
+  '@june:vern.cc',
 ]
 
 [[projects]]
