@@ -1732,6 +1732,7 @@ website = '@/foundation/working-groups/index.md#trust-safety-research-documentat
 default_section = 'wgs'
 usual_reporters = [
   '@deepbluev7:neko.dev',
+  '@andybalaam:matrix.org',
 ]
 
 [[projects]]
