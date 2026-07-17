@@ -1603,6 +1603,7 @@ default_section = 'servers'
 usual_reporters = [
   '@nex:continuwuity.org',
   '@nex:nexy7574.co.uk',
+  '@nex:starstruck.systems'
 ]
 
 [[projects]]
@@ -1759,4 +1760,17 @@ default_section = 'wgs'
 usual_reporters = [
   '@neilj:matrix.org',
   '@noordstar:matrix.org',
+]
+
+
+[[projects]]
+emoji = 'Venator'
+name = 'Venator'
+title = 'Venator'
+description = 'Venator is an independently maintained Matrix homeserver, written from scratch in Go using the mautrix-go SDK.'
+website = 'https://timedout.codeberg.page/venator'
+default_section = 'servers'
+usual_reporters = [
+  '@nex:starstruck.systems',
+  '@nex:nexy7574.co.uk',
 ]
