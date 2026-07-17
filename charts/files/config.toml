@@ -1764,7 +1764,7 @@ usual_reporters = [
 
 
 [[projects]]
-emoji = 'Venator'
+emoji = 'venator'
 name = 'Venator'
 title = 'Venator'
 description = 'Venator is an independently maintained Matrix homeserver, written from scratch in Go using the mautrix-go SDK.'
