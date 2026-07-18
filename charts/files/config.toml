@@ -1603,7 +1603,7 @@ default_section = 'servers'
 usual_reporters = [
   '@nex:continuwuity.org',
   '@nex:nexy7574.co.uk',
-  '@nex:starstruck.systems'
+  '@nex:starstruck.systems',
 ]
 
 [[projects]]
