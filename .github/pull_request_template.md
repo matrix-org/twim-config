@@ -26,7 +26,7 @@ Please [sign off](https://github.com/matrix-org/twim-config/blob/main/README.md#
 <!-- Thank you for creating a Pull Request to the matrix.org website!
      Please read our documentation for contributors to make the review process a smooth as possible:
      - https://github.com/matrix-org/twim-config/blob/main/README.md
-     - https://github.com/matrix-org/matrix.org/blob/main/CONTRIBUTING.md
+     - https://github.com/matrix-org/twim-config/blob/main/CONTRIBUTING.md
 
      The processes for this repo are inherited from the matrix.org main website repository at
      https://github.com/matrix-org/matrix.org/.
