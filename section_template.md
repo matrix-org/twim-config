@@ -1,1 +1,0 @@
-./charts/files/section_template.md
