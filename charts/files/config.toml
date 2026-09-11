@@ -1765,7 +1765,6 @@ usual_reporters = [
   '@noordstar:matrix.org',
 ]
 
-
 [[projects]]
 emoji = 'venator'
 name = 'Venator'
@@ -1776,4 +1775,15 @@ default_section = 'servers'
 usual_reporters = [
   '@nex:starstruck.systems',
   '@nex:nexy7574.co.uk',
+]
+
+[[projects]]
+emoji = 'lk-jwt'
+name = 'lk-jwt-service'
+title = 'LiveKit JWT service'
+description = 'Bridging Matrix and LiveKit for Matrix RTC realtime sessions.'
+website = 'https://github.com/element-hq/lk-jwt-service'
+default_section = 'voip'
+usual_reporters = [
+  '@johannesm:element.io',
 ]
