@@ -48,6 +48,10 @@ category = ["This Week in Matrix"]
   {{- news(entry.news) }}
 
   {%- endfor %} {#- projects #}
+
+{%- if loop.first %}
+<!-- more -->
+{%- endif %}
  
 {%- endfor %} {#- sections #}
 
