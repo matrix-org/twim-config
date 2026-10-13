@@ -18,10 +18,8 @@ category = ["This Week in Matrix"]
 [{{ item.reporter_display_name }}](https://matrix.to/#/{{ item.reporter_id }}) {{ config.verbs | random }}
 
 > {{ item.message | replace("\n", "\n> ") }}
-    {%- if item.images -%}
-      {%- for image in item.images %}
-> ![]({{ image[0] }})
-      {%- endfor %}
+    {%- if item.images %}
+> {{ "{{" }} figure(img=[{% for image in item.images %}"{{ image[0] }}"{% if not loop.last %}, {% endif %}{% endfor %}], caption="TODO: ADD CAPTION AND ALT TEXT") {{ "}}" }}
     {%- endif -%} {#- news item images #}
 
     {%- if item.videos -%}
